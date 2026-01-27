@@ -251,3 +251,6 @@ function verifyAccess() {
         denyAccess();
         return;
     }
+
+    let age = today.getFullYear() - dob.getFullYear();
+    const monthDiff = today.getMonth() - dob.getMonth();
