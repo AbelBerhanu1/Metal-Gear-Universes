@@ -162,3 +162,74 @@ body {
         transform: translateY(0);
     }
 }
+
+.static-noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        repeating-linear-gradient(0deg, 
+            transparent, 
+            transparent 2px, 
+            rgba(58, 107, 42, 0.03) 2px, 
+            rgba(58, 107, 42, 0.03) 4px),
+        repeating-linear-gradient(90deg, 
+            transparent, 
+            transparent 2px, 
+            rgba(26, 31, 28, 0.02) 2px, 
+            rgba(26, 31, 28, 0.02) 4px);
+    opacity: 0.3;
+    animation: static 0.1s infinite;
+    pointer-events: none;
+}
+
+@keyframes static {
+    0% { background-position: 0 0; }
+    100% { background-position: 4px 4px; }
+}
+
+.welcome-text {
+    margin: 1rem 0 2rem;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 1s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.access-subtitle {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+#accessCode {
+    letter-spacing: 0.2em;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.access-panel, .boot-complete {
+    max-width: 400px;
+    margin: 0 auto;
+}
