@@ -27,3 +27,17 @@
                     <div class="boot-line">ESTABLISHING ENCRYPTION...</div>
                     <div class="boot-line">SYSTEM TIME: <span id="bootTime"></span></div>
                 </div>
+
+                <div class="access-panel hidden">
+                    <div class="access-title">SECURITY CLEARANCE REQUIRED</div>
+                    <div class="access-subtitle">ENTER 8-DIGIT DATE OF BIRTH (DDMMYY)</div>
+                    <div class="access-form">
+                        <div class="form-row">
+                            <label for="accessCode">ACCESS CODE:</label>
+                            <input type="text" id="accessCode" placeholder="DDMMYYYY" maxlength="8" pattern="\d{8}">
+                        </div>
+                        <button id="verifyAccess" class="access-btn">VERIFY</button>
+                        <div id="accessError" class="error-msg hidden">ACCESS DENIED — AGE RESTRICTED</div>
+                    </div>
+                    <div class="hint">Enter DDMMYY format (e.g., 01011997 for Jan 1, 1997)</div>
+                </div>
