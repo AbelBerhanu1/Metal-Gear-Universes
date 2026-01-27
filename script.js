@@ -495,3 +495,20 @@ function initStorageSystem() {
     
     updateCacheDisplay();
 }
+
+function saveCacheNote() {
+    const note = elements.cacheNote.value.trim();
+    
+    if (note) {
+        const cacheData = {
+            note: note,
+            timestamp: new Date().toISOString(),
+            type: 'user_note'
+        };
+        
+        saveToStorage('cache', cacheData);
+        elements.cacheNote.value = '';
+        updateCacheDisplay();
+        consoleLog('Cache note saved');
+    }
+}
