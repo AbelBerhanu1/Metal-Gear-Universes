@@ -651,3 +651,11 @@ function formatTime(timestamp) {
         minute: '2-digit'
     });
 }
+
+function showError(elementId, message) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.textContent = message;
+        element.style.display = 'block';
+    }
+}
