@@ -233,3 +233,74 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+
+.access-title {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: var(--accent-gold);
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.access-form {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.form-row {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-row label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xs);
+    text-transform: uppercase;
+}
+
+.access-form input {
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--terminal-border);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.access-form input:focus {
+    outline: none;
+    border-color: var(--accent-green);
+}
+
+.access-btn, .enter-btn {
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: transparent;
+    border: 1px solid var(--accent-green);
+    color: var(--accent-green);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.access-btn:hover, .enter-btn:hover {
+    background: rgba(58, 107, 42, 0.1);
+}
+
+.error-msg {
+    color: var(--accent-red);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    margin-top: var(--spacing-xs);
+    text-align: center;
+}
