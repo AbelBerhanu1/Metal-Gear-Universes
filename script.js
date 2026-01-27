@@ -449,3 +449,14 @@ function validateMessage() {
     clearError('messageError');
     return true;
 }
+
+function validateForm() {
+    const validations = [
+        validateAgentId(),
+        validateFrequency(),
+        validateMessage(),
+        document.getElementById('encrypt').checked
+    ];
+    
+    return validations.every(v => v === true);
+}
