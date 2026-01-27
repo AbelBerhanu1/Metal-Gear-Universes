@@ -590,3 +590,18 @@ function consoleLog(message) {
     
     consoleEl.scrollTop = consoleEl.scrollHeight;
 }
+
+function initSoundToggle() {
+    if (!elements.toggleSound) return;
+    
+    elements.toggleSound.addEventListener('click', function() {
+        SYSTEM_CONFIG.soundEnabled = !SYSTEM_CONFIG.soundEnabled;
+        this.textContent = SYSTEM_CONFIG.soundEnabled ? 'SND: ON' : 'SND: OFF';
+        if (elements.bgVideo) {
+            elements.bgVideo.muted = !SYSTEM_CONFIG.soundEnabled;
+        }
+
+        localStorage.setItem('foxhound_sound', SYSTEM_CONFIG.soundEnabled.toString());
+        consoleLog(`Sound ${SYSTEM_CONFIG.soundEnabled ? 'enabled' : 'disabled'}`);
+    });
+}
