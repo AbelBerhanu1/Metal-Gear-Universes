@@ -360,3 +360,12 @@ function initNavigation() {
             this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'
         );
     });
+
+    document.addEventListener('click', function(e) {
+        if (!elements.navMenu.contains(e.target) && 
+            !elements.navToggle.contains(e.target) && 
+            elements.navMenu.classList.contains('active')) {
+            elements.navMenu.classList.remove('active');
+            elements.navToggle.setAttribute('aria-expanded', 'false');
+        }
+    });
