@@ -565,3 +565,28 @@ function initConsoleToggle() {
         }
     });
 }
+
+function consoleLog(message) {
+    const consoleEl = document.querySelector('.console-content');
+    if (!consoleEl) return;
+    
+    const timestamp = new Date().toLocaleTimeString('en-US', {
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    });
+    
+    const logEntry = document.createElement('div');
+    logEntry.className = 'log-entry';
+    logEntry.innerHTML = `[${timestamp}] ${SYSTEM_CONFIG.consolePrefix} ${message}`;
+    
+    consoleEl.appendChild(logEntry);
+    
+    const entries = consoleEl.querySelectorAll('.log-entry');
+    if (entries.length > 10) {
+        entries[0].remove();
+    }
+    
+    consoleEl.scrollTop = consoleEl.scrollHeight;
+}
