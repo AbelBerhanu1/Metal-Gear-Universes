@@ -688,3 +688,87 @@ body {
         opacity: 0;
     }
 }
+
+.tactical-interface {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: calc(100vh - 120px);
+}
+
+.tactical-console {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.console-header {
+    background: linear-gradient(180deg, var(--terminal-accent) 0%, #152018 100%);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--accent-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.console-title {
+    color: var(--accent-green);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.console-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    background: var(--status-online);
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+.console-output {
+    padding: 1rem;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.console-log {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.log-entry {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 2px solid var(--accent-green);
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
