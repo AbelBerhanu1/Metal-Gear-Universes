@@ -772,3 +772,102 @@ body {
         transform: translateX(0);
     }
 }
+
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.tactical-module {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    border-radius: 2px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.tactical-module:hover {
+    border-color: var(--accent-green);
+    transform: translateY(-4px);
+    box-shadow: 
+        0 8px 25px rgba(58, 107, 42, 0.15),
+        inset 0 0 20px rgba(58, 107, 42, 0.05);
+}
+
+.tactical-module::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-green), transparent);
+    animation: scanModule 3s linear infinite;
+}
+
+@keyframes scanModule {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(180deg, var(--terminal-accent) 0%, #1a1f1c 100%);
+    border-bottom: 1px solid var(--terminal-border);
+}
+
+.module-id {
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+}
+
+.module-status {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.module-status.active {
+    background: var(--status-online);
+    animation: pulse 2s infinite;
+}
+
+.module-status.archived {
+    background: var(--status-warning);
+}
+
+.module-status.secure {
+    background: var(--status-secure);
+}
+
+.module-content {
+    padding: 1.5rem;
+}
+
+.module-title {
+    color: var(--accent-green);
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.module-desc {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.module-stats {
+    display: flex;
+    gap: 1.5rem;
+}
