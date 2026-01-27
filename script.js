@@ -296,3 +296,8 @@ function enterSystem() {
             enterSound.play().catch(e => console.log('Enter sound failed:', e));
         }
     }
+
+    sessionStorage.setItem('foxhoundBooted', 'true');
+
+    elements.bootSequence.style.opacity = '0';
+    elements.bootSequence.style.transition = 'opacity 0.8s ease';
