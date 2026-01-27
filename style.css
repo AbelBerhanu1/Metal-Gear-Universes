@@ -1591,3 +1591,201 @@ body {
     flex-direction: column;
     gap: 1.5rem;
 }
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.metric-label {
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.metric-value {
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.metric-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--terminal-border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent-green);
+    border-radius: 2px;
+    transition: width 1s ease;
+}
+
+.system-status {
+    height: fit-content;
+}
+
+.status-panel {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+}
+
+.status-title {
+    padding: var(--spacing-md);
+    background: var(--terminal-accent);
+    border-bottom: 1px solid var(--terminal-border);
+    font-size: 0.9rem;
+    color: var(--accent-green);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.status-items {
+    padding: var(--spacing-md);
+}
+
+.status-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid rgba(26, 31, 28, 0.5);
+}
+
+.status-item:last-child {
+    border-bottom: none;
+}
+
+.status-label {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.status-value {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+}
+
+.online { color: var(--status-online); }
+.secure { color: var(--status-secure); }
+.warning { color: var(--status-warning); }
+.error { color: var(--status-error); }
+
+.cache-panel {
+    padding: 1.5rem;
+    border-top: 1px solid var(--terminal-border);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.cache-title {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.cache-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cache-buttons {
+    display: flex;
+    gap: 0.25rem;
+    width: 5em;
+}
+
+.cache-display {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    min-height: 100px;
+    padding: var(--spacing-sm);
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--terminal-border);
+    border-radius: 2px;
+}
+
+.cache-empty {
+    text-align: center;
+    color: var(--text-tertiary);
+    padding: 2rem;
+}
+
+.storage-display {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    padding: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+    min-height: 260px;
+    width: 100%;
+}
+
+.storage-display h4 {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.storage-controls {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+.storage-controls input {
+    width: 100%;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    padding: var(--spacing-sm);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--terminal-border);
+    color: var(--text-primary);
+}
+.storage-buttons {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+.cache-btn {
+    flex: 1;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    padding: var(--spacing-sm) 0;
+    background: transparent;
+    border: 1px solid var(--accent-green);
+    color: var(--accent-green);
+    cursor: pointer;
+    text-align: center;
+}
+
+.cache-btn.secondary {
+    border-color: var(--text-tertiary);
+    color: var(--text-tertiary);
+}
+
+.cache-btn:hover {
+    background: rgba(58, 107, 42, 0.1);
+}
+
+.cache-display {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    min-height: 80px;
+    padding: var(--spacing-sm);
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--terminal-border);
+    border-radius: 2px;
+}
