@@ -265,3 +265,9 @@ function verifyAccess() {
         denyAccess();
     }
 }
+
+function grantAccess() {
+    elements.accessError.classList.add('hidden');
+    elements.accessPanel.classList.add('hidden');
+    elements.bootComplete.classList.remove('hidden');
+    
