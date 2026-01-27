@@ -512,3 +512,13 @@ function saveCacheNote() {
         consoleLog('Cache note saved');
     }
 }
+
+function clearCache() {
+    if (confirm('Clear all cached data?')) {
+        localStorage.removeItem(SYSTEM_CONFIG.storageKey);
+        sessionStorage.removeItem('foxhoundBooted');
+        updateCacheDisplay();
+        updateStorageStatus();
+        consoleLog('Cache cleared - session reset');
+    }
+}
