@@ -369,9 +369,29 @@ function initNavigation() {
             elements.navToggle.setAttribute('aria-expanded', 'false');
         }
     });
-    
+
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', function() {
             playNavSound();
             document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
             this.classList.add('active');
+            if (window.innerWidth <= 768) {
+                elements.navMenu.classList.remove('active');
+                elements.navToggle.setAttribute('aria-expanded', 'false');
+
+                const bgVideo = elements.bgVideo;
+                if (bgVideo) {
+                    bgVideo.muted = !SYSTEM_CONFIG.soundEnabled;
+                    bgVideo.classList.remove('hidden');
+
+                    bgVideo.play().then(() => {
+                        consoleLog('Background video playing');
+                    }).catch(err => {
+                        consoleLog('Background video blocked by browser');
+                        console.warn(err);
+                    });
+                }
+            }
+        });
+    });
+}
