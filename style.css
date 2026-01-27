@@ -361,3 +361,61 @@ body {
 .bg-video.hidden {
     display: none;
 }
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    gap: 5px;
+    margin: 0 auto 1rem;
+    transform: rotate(45deg);
+}
+
+.logo-cell {
+    background: var(--terminal-border);
+    border-radius: 2px;
+    transition: background 0.3s ease;
+}
+
+.logo-cell.active {
+    background: var(--accent-green);
+    animation: cellPulse 2s infinite;
+}
+
+@keyframes cellPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.foxhound-logo {
+    color: var(--accent-green);
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    animation: glitch 3s infinite;
+}
+
+@keyframes glitch {
+    0%, 100% {
+        transform: translate(0);
+        text-shadow: 0 0 10px rgba(58, 107, 42, 0.3);
+    }
+    95% {
+        transform: translate(0);
+        text-shadow: 0 0 10px rgba(58, 107, 42, 0.3);
+    }
+    96% {
+        transform: translate(-2px, 1px);
+        text-shadow: 2px 0 red;
+    }
+    97% {
+        transform: translate(1px, -1px);
+        text-shadow: -2px 0 blue;
+    }
+    98% {
+        transform: translate(0);
+        text-shadow: 0 0 10px rgba(58, 107, 42, 0.3);
+    }
+}
