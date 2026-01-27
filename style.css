@@ -419,3 +419,100 @@ body {
         text-shadow: 0 0 10px rgba(58, 107, 42, 0.3);
     }
 }
+
+#mainSystem {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.tactical-status-bar {
+    background: linear-gradient(180deg, #080a09 0%, var(--terminal-surface) 100%);
+    border-bottom: 1px solid var(--accent-green);
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(58, 107, 42, 0.1);
+}
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    align-items: center;
+}
+
+.status-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+}
+
+.status-cell.controls {
+    justify-self: end;
+    gap: 0.25rem;
+}
+
+.status-label {
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.status-value {
+    color: var(--text-primary);
+    font-weight: bold;
+}
+
+.tactical-control-btn {
+    background: transparent;
+    border: 1px solid var(--terminal-border);
+    color: var(--text-secondary);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tactical-control-btn:hover {
+    border-color: var(--accent-green);
+    color: var(--accent-green);
+    transform: translateY(-1px);
+}
+
+.tactical-control-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(58, 107, 42, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.tactical-control-btn:hover::before {
+    left: 100%;
+}
+
+.tactical-nav {
+    background: rgba(10, 12, 11, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--terminal-border);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 2.5rem;
+    z-index: 999;
+}
