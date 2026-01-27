@@ -522,3 +522,23 @@ function clearCache() {
         consoleLog('Cache cleared - session reset');
     }
 }
+
+function updateCacheDisplay() {
+    if (!elements.cacheDisplay) return;
+    
+    const data = getFromStorage('cache') || [];
+    
+    if (data.length === 0) {
+        elements.cacheDisplay.innerHTML = '<div class="cache-empty">No cached data</div>';
+        return;
+    }
+    
+    const html = data.map(item => `
+        <div class="cache-item">
+            <div class="cache-note">${item.note}</div>
+            <div class="cache-time">${formatTime(item.timestamp)}</div>
+        </div>
+    `).join('');
+    
+    elements.cacheDisplay.innerHTML = html;
+}
