@@ -1108,3 +1108,132 @@ body {
     font-size: 0.9rem;
     color: var(--text-secondary);
 }
+
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.data-panel {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.data-panel:hover {
+    border-color: var(--accent-green);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 107, 42, 0.1);
+}
+
+.panel-header {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--terminal-accent);
+    border-bottom: 1px solid var(--terminal-border);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
+
+.panel-id {
+    color: var(--text-secondary);
+}
+
+.panel-status {
+    color: var(--status-online);
+}
+
+.panel-title {
+    padding: var(--spacing-md);
+    font-size: 1.1rem;
+    color: var(--accent-green);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--terminal-border);
+}
+
+.panel-content {
+    padding: var(--spacing-md);
+}
+
+.panel-content p {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+}
+
+.panel-stats {
+    display: flex;
+    gap: var(--spacing-md);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+}
+
+.stat {
+    color: var(--text-tertiary);
+}
+
+.panel-footer {
+    padding: var(--spacing-md);
+    border-top: 1px solid var(--terminal-border);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.panel-btn {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid var(--accent-green);
+    color: var(--accent-green);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.panel-btn:hover {
+    background: rgba(58, 107, 42, 0.1);
+}
+
+.tactical-input {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--terminal-border);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-focus-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--accent-green);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.tactical-input:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    box-shadow: 0 0 15px rgba(58, 107, 42, 0.1);
+}
+
+.tactical-input:focus + .input-focus-line {
+    width: 100%;
+}
