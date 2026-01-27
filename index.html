@@ -175,3 +175,13 @@
                         <h3 class="section-title">SECURE TRANSMISSION</h3>
                         <span class="section-tag">ENCRYPTED CHANNEL</span>
                     </div>
+
+                    <form id="commsForm" class="comms-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="agentId">AGENT ID:</label>
+                                <input type="text" id="agentId" name="agentId" required 
+                                       placeholder="ENTER CODENAME" pattern="[A-Z0-9]{3,8}">
+                                <div class="form-hint">3-8 characters, alphanumeric</div>
+                                <div class="error-msg" id="agentIdError"></div>
+                            </div>
