@@ -287,3 +287,12 @@ function denyAccess() {
     
     consoleLog('Access denied — age verification failed');
 }
+
+function enterSystem() {
+    if (SYSTEM_CONFIG.soundEnabled) {
+        const enterSound = document.getElementById('systemEnterSound');
+        if (enterSound) {
+            enterSound.currentTime = 0;
+            enterSound.play().catch(e => console.log('Enter sound failed:', e));
+        }
+    }
