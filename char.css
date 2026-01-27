@@ -1,0 +1,17 @@
+:root {
+    --terminal-bg: #0a0c0b;
+    --terminal-surface: #101412;
+    --terminal-border: #1a1f1c;
+
+    --text-primary: #c7d1c7;
+    --text-secondary: #8a958a;
+    --text-tertiary: #5a665a;
+
+    --accent-green: #4a6b2a;
+    --accent-gold: #8b753a;
+    --accent-red: #8b2a2a;
+    --accent-blue: #2a4a6b;
+
+    --font-main: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+    --font-mono: 'Courier New', 'Lucida Console', monospace;
+}
