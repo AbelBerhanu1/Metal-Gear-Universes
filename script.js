@@ -189,3 +189,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 playTypingSound();
             }
         });
+        input.addEventListener('paste', playTypingSound);
+        input.addEventListener('cut', playTypingSound);
+    });
