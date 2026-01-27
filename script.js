@@ -116,3 +116,13 @@ function updateBackgroundVideo() {
         elements.bgVideo.classList.add('hidden');
     }
 }
+
+function playClickSound() {
+    if (!SYSTEM_CONFIG.soundEnabled) return;
+    const sound = document.getElementById('uiClickSound');
+    if (sound) {
+        sound.currentTime = 0;
+        sound.volume = 0.3;
+        sound.play().catch(e => console.log('Click sound failed:', e));
+    }
+}
