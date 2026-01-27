@@ -200,3 +200,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+function startBootSequence() {
+    const now = new Date();
+    elements.bootTime.textContent = now.toLocaleTimeString('en-US', {
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    });
