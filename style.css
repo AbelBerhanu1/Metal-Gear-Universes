@@ -304,3 +304,43 @@ body {
     margin-top: var(--spacing-xs);
     text-align: center;
 }
+
+.hint {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-align: center;
+    margin-top: var(--spacing-md);
+}
+
+.boot-complete .complete-message {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.complete-line {
+    font-family: var(--font-mono);
+    color: var(--accent-green);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.crt-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: 
+        repeating-linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.15) 0px,
+            rgba(0, 0, 0, 0.15) 1px,
+            transparent 1px,
+            transparent 2px
+        );
+    z-index: 3;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
