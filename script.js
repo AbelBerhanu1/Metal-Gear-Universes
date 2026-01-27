@@ -166,3 +166,17 @@ function playPanelSound() {
         panelSound.play().catch(e => console.log('Panel sound failed:', e));
     }
 }
+
+document.addEventListener('click', function(e) {
+    if (e.target.closest('.nav-link')) {
+        playNavSound();
+        playClickSound();
+    }
+    else if (e.target.closest('.panel-btn')) {
+        playPanelSound();
+        playClickSound();
+    }
+    else if (e.target.closest('button, a[href]:not(.nav-link), .sys-btn, .transmit-btn, .cache-btn, .access-btn, .enter-btn')) {
+        playClickSound();
+    }
+});
