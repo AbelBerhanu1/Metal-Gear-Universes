@@ -486,3 +486,12 @@ function sendTransmission() {
         elements.transmissionStatus.classList.add('hidden');
     }, 5000);
 }
+
+function initStorageSystem() {
+    if (!elements.saveCacheBtn || !elements.clearCacheBtn) return;
+    
+    elements.saveCacheBtn.addEventListener('click', saveCacheNote);
+    elements.clearCacheBtn.addEventListener('click', clearCache);
+    
+    updateCacheDisplay();
+}
