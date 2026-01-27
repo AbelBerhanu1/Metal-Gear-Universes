@@ -74,3 +74,14 @@ function initializeElements() {
         bgVideo: document.getElementById('bgVideo')
     };
 }
+
+function initializeSystem() {
+    updateSystemTime();
+    setInterval(updateSystemTime, 1000);
+    
+    const savedSound = localStorage.getItem('foxhound_sound');
+    if (savedSound !== null) {
+        SYSTEM_CONFIG.soundEnabled = savedSound === 'true';
+        if (elements.toggleSound) {
+            elements.toggleSound.textContent = SYSTEM_CONFIG.soundEnabled ? 'SND: ON' : 'SND: OFF';
+        }
