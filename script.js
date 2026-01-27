@@ -301,3 +301,20 @@ function enterSystem() {
 
     elements.bootSequence.style.opacity = '0';
     elements.bootSequence.style.transition = 'opacity 0.8s ease';
+
+    etTimeout(() => {
+        elements.bootSequence.classList.add('hidden');
+        elements.mainSystem.classList.remove('hidden');
+        const bgVideo = elements.bgVideo;
+        if (bgVideo) {
+
+            bgVideo.muted = !SYSTEM_CONFIG.soundEnabled; 
+            bgVideo.classList.remove('hidden');
+
+            bgVideo.play().then(() => {
+                consoleLog('Background video playing');
+            }).catch(err => {
+                consoleLog('Background video blocked by browser');
+                console.warn(err);
+            });
+        }
