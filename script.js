@@ -234,3 +234,11 @@ function verifyAccess() {
     const day = parseInt(code.slice(0, 2), 10);
     const month = parseInt(code.slice(2, 4), 10) - 1;
     const year = parseInt(code.slice(4, 8), 10);
+
+    if (day < 1 || day > 31 || month < 0 || month > 11 || year < 1900 || year > new Date().getFullYear()) {
+        denyAccess();
+        return;
+    }
+    
+    const dob = new Date(year, month, day);
+    const today = new Date();
