@@ -659,3 +659,11 @@ function showError(elementId, message) {
         element.style.display = 'block';
     }
 }
+
+function clearError(elementId) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.textContent = '';
+        element.style.display = 'none';
+    }
+}
