@@ -637,3 +637,8 @@ function saveToStorage(key, data) {
     localStorage.setItem(SYSTEM_CONFIG.storageKey, JSON.stringify(storageData));
     updateStorageStatus();
 }
+
+function getFromStorage(key) {
+    const storageData = JSON.parse(localStorage.getItem(SYSTEM_CONFIG.storageKey) || '{}');
+    return storageData[key] || [];
+}
