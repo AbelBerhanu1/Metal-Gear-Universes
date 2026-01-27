@@ -8,3 +8,5 @@ const SYSTEM_CONFIG = {
     typingSoundDelay: 100,
     lastTypingTime: 0
 };
+
+let elements = {};
