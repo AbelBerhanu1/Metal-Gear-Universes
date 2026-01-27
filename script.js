@@ -192,3 +192,11 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('paste', playTypingSound);
         input.addEventListener('cut', playTypingSound);
     });
+    if (elements.accessCodeInput) {
+        elements.accessCodeInput.addEventListener('keydown', function(e) {
+            if (e.key.length === 1 || e.key === 'Backspace' || e.key === 'Delete') {
+                playTypingSound();
+            }
+        });
+    }
+});
