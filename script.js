@@ -552,3 +552,16 @@ function updateStorageStatus() {
     elements.storageStatus.textContent = `${itemCount} items`;
     elements.storageStatus.className = 'status-value ' + (itemCount > 0 ? 'online' : 'warning');
 }
+
+function initConsoleToggle() {
+    if (!elements.toggleConsole) return;
+    
+    elements.toggleConsole.addEventListener('click', function() {
+        const consoleEl = document.querySelector('.console-output');
+        if (consoleEl) {
+            const isHidden = consoleEl.style.display === 'none';
+            consoleEl.style.display = isHidden ? 'block' : 'none';
+            this.textContent = isHidden ? 'HIDE CONSOLE' : 'SHOW CONSOLE';
+        }
+    });
+}
