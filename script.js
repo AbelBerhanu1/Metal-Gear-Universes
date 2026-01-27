@@ -222,3 +222,11 @@ function startBootSequence() {
     
     elements.enterSystemBtn.addEventListener('click', enterSystem);
 }
+
+function verifyAccess() {
+    const code = elements.accessCodeInput.value.trim();
+    
+    if (!/^\d{8}$/.test(code)) {
+        denyAccess();
+        return;
+    }
