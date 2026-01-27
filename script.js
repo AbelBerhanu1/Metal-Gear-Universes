@@ -395,3 +395,19 @@ function initNavigation() {
         });
     });
 }
+
+function initCommsForm() {
+    if (!elements.commsForm) return;
+    
+    elements.agentIdInput.addEventListener('input', validateAgentId);
+    elements.frequencyInput.addEventListener('input', validateFrequency);
+    elements.messageInput.addEventListener('input', validateMessage);
+    
+    elements.commsForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        if (validateForm()) {
+            sendTransmission();
+        }
+    });
+}
