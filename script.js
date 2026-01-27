@@ -14,3 +14,27 @@ document.addEventListener('DOMContentLoaded', function () {
     initializeElements();
     initializeSystem();
     initializeVideoBackground();
+
+    const bootSequence = elements.bootSequence;
+    const mainSystem = elements.mainSystem;
+    const ageVerified = localStorage.getItem('foxhound_age_verified') === 'true';
+    const bootedThisSession = sessionStorage.getItem('foxhoundBooted') === 'true';
+
+    if (ageVerified && bootedThisSession) {
+        bootSequence.classList.add('hidden');
+        mainSystem.classList.remove('hidden');
+        consoleLog('Session resumed — boot skipped');
+        initializeMainSystem();
+        return;
+    }
+
+    if (bootedThisSession) {
+        bootSequence.classList.add('hidden');
+        mainSystem.classList.remove('hidden');
+        consoleLog('Session resumed — boot skipped');
+        initializeMainSystem();
+        return;
+    }
+
+    startBootSequence();
+});
