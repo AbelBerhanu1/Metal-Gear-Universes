@@ -1237,3 +1237,88 @@ body {
 .tactical-input:focus + .input-focus-line {
     width: 100%;
 }
+
+.select-wrapper {
+    position: relative;
+}
+
+.tactical-select {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--terminal-border);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    appearance: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+    pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.tactical-select:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    box-shadow: 0 0 15px rgba(58, 107, 42, 0.1);
+}
+
+.tactical-select:focus + .select-arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+.tactical-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--terminal-border);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    resize: vertical;
+    min-height: 100px;
+    transition: all 0.3s ease;
+}
+
+.textarea-focus-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid transparent;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.tactical-textarea:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    box-shadow: 0 0 15px rgba(58, 107, 42, 0.1);
+}
+
+.tactical-textarea:focus + .textarea-focus-border {
+    border-color: var(--accent-green);
+    animation: borderPulse 2s infinite;
+}
+
+@keyframes borderPulse {
+    0%, 100% {
+        border-width: 1px;
+        opacity: 1;
+    }
+    50% {
+        border-width: 2px;
+        opacity: 0.5;
+    }
+}
