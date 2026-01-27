@@ -341,3 +341,12 @@ function updateSystemTime() {
         minute: '2-digit',
         second: '2-digit'
     });
+
+    if (elements.liveTime) {
+        elements.liveTime.textContent = timeString;
+    }
+    
+    if (elements.consoleTime) {
+        elements.consoleTime.textContent = timeString;
+    }
+}
