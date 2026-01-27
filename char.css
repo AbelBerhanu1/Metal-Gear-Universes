@@ -30,3 +30,46 @@ body {
     letter-spacing: 0.05em;
     line-height: 1.6;
 }
+
+.main-header {
+    background: linear-gradient(to bottom, #0c0e0d, #080a09);
+    border-bottom: 1px solid var(--terminal-border);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+}
+
+.brand-mg {
+    color: var(--accent-green);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: var(--accent-green);
+}
