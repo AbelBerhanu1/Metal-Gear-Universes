@@ -323,3 +323,12 @@ function enterSystem() {
         updateStorageStatus();
     }, 800);
 }
+
+function initializeMainSystem() {
+    initNavigation();
+    initCommsForm();
+    initStorageSystem();
+    initConsoleToggle();
+    initSoundToggle();
+    checkExistingSession();
+}
