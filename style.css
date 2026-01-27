@@ -1,0 +1,28 @@
+:root {
+    --terminal-bg: #0a0c0b;
+    --terminal-surface: #101412;
+    --terminal-border: #1a1f1c;
+    --terminal-accent: #25321c;
+    
+    --text-primary: #c7d1c7;
+    --text-secondary: #8a958a;
+    --text-tertiary: #5a665a;
+    
+    --status-online: #3a8b3a;
+    --status-warning: #8b5a3a;
+    --status-error: #8b3a3a;
+    --status-secure: #3a5a8b;
+    
+    --accent-green: #4a6b2a;
+    --accent-gold: #8b753a;
+    --accent-red: #8b2a2a;
+
+    --font-main: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+    --font-mono: 'Courier New', 'Lucida Console', monospace;
+    
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+}
