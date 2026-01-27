@@ -85,3 +85,8 @@ function initializeSystem() {
         if (elements.toggleSound) {
             elements.toggleSound.textContent = SYSTEM_CONFIG.soundEnabled ? 'SND: ON' : 'SND: OFF';
         }
+        if (elements.bgVideo) {
+            elements.bgVideo.muted = !SYSTEM_CONFIG.soundEnabled;
+        }
+    }
+}
