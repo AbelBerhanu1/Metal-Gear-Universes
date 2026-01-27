@@ -620,3 +620,20 @@ function checkExistingSession() {
         }
     }
 }
+
+function saveToStorage(key, data) {
+    const storageData = JSON.parse(localStorage.getItem(SYSTEM_CONFIG.storageKey) || '{}');
+    
+    if (!storageData[key]) {
+        storageData[key] = [];
+    }
+    
+    storageData[key].push(data);
+    
+    if (storageData[key].length > 10) {
+        storageData[key] = storageData[key].slice(-10);
+    }
+    
+    localStorage.setItem(SYSTEM_CONFIG.storageKey, JSON.stringify(storageData));
+    updateStorageStatus();
+}
