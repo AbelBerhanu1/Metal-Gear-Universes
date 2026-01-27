@@ -214,3 +214,11 @@ function startBootSequence() {
         elements.accessPanel.classList.remove('hidden');
         elements.accessCodeInput.focus();
     }, 3000);
+
+    elements.verifyAccessBtn.addEventListener('click', verifyAccess);
+    elements.accessCodeInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') verifyAccess();
+    });
+    
+    elements.enterSystemBtn.addEventListener('click', enterSystem);
+}
