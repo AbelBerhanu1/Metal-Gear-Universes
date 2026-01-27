@@ -230,3 +230,7 @@ function verifyAccess() {
         denyAccess();
         return;
     }
+
+    const day = parseInt(code.slice(0, 2), 10);
+    const month = parseInt(code.slice(2, 4), 10) - 1;
+    const year = parseInt(code.slice(4, 8), 10);
