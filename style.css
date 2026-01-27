@@ -1475,3 +1475,119 @@ body {
     color: var(--text-tertiary);
     margin-top: var(--spacing-xs);
 }
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.transmit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: transparent;
+    border: 1px solid var(--accent-green);
+    color: var(--accent-green);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.transmit-btn:hover {
+    background: rgba(58, 107, 42, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(58, 107, 42, 0.2);
+}
+
+.transmission-status {
+    padding: var(--spacing-md);
+    background: rgba(58, 107, 42, 0.1);
+    border: 1px solid var(--accent-green);
+}
+
+.status-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.status-icon {
+    font-size: 1.5rem;
+    color: var(--accent-green);
+}
+
+.status-text h4 {
+    color: var(--accent-green);
+    margin-bottom: var(--spacing-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.status-text p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.status-meta {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    margin-top: var(--spacing-xs);
+}
+
+.tactical-status {
+    height: fit-content;
+}
+
+.status-panel {
+    background: var(--terminal-surface);
+    border: 1px solid var(--terminal-border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(180deg, var(--terminal-accent) 0%, #152018 100%);
+    border-bottom: 1px solid var(--terminal-border);
+}
+
+.panel-title {
+    color: var(--accent-green);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.panel-update {
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    animation: blink 1s infinite;
+}
+
+.status-metrics {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
