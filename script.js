@@ -209,3 +209,8 @@ function startBootSequence() {
         minute: '2-digit',
         second: '2-digit'
     });
+
+    setTimeout(() => {
+        elements.accessPanel.classList.remove('hidden');
+        elements.accessCodeInput.focus();
+    }, 3000);
