@@ -99,3 +99,20 @@ function initializeVideoBackground() {
         });
     }
 }
+
+function updateBackgroundVideo() {
+    if (!elements.bgVideo) return;
+
+    const homeSection = document.getElementById('home');
+    if (!homeSection) return;
+
+    const isHomeVisible = !homeSection.classList.contains('hidden');
+
+    if (isHomeVisible) {
+        elements.bgVideo.classList.remove('hidden');
+        elements.bgVideo.play().catch(() => {});
+    } else {
+        elements.bgVideo.pause();
+        elements.bgVideo.classList.add('hidden');
+    }
+}
