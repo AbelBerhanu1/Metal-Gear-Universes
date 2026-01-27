@@ -672,3 +672,17 @@ window.accessRestricted = function() {
     alert('ACCESS RESTRICTED\nThis archive requires Security Level 4 clearance.');
     consoleLog('Access attempt denied - Insufficient clearance');
 };
+
+window.addEventListener('beforeunload', function() {
+    if (SYSTEM_CONFIG.soundEnabled) {
+        const exitSound = document.getElementById('systemExitSound');
+        if (exitSound) {
+            exitSound.volume = 0.3;
+            const playPromise = exitSound.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(() => {
+                });
+            }
+        }
+    }
+});
