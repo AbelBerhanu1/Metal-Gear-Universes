@@ -38,3 +38,39 @@ document.addEventListener('DOMContentLoaded', function () {
 
     startBootSequence();
 });
+
+function initializeElements() {
+    elements = {
+        bootSequence: document.getElementById('bootSequence'),
+        bootTime: document.getElementById('bootTime'),
+        accessPanel: document.querySelector('.access-panel'),
+        accessCodeInput: document.getElementById('accessCode'),
+        verifyAccessBtn: document.getElementById('verifyAccess'),
+        accessError: document.getElementById('accessError'),
+        bootComplete: document.querySelector('.boot-complete'),
+        enterSystemBtn: document.getElementById('enterSystem'),
+        
+        mainSystem: document.getElementById('mainSystem'),
+        liveTime: document.getElementById('liveTime'),
+        consoleTime: document.getElementById('consoleTime'),
+        toggleConsole: document.getElementById('toggleConsole'),
+        toggleSound: document.getElementById('toggleSound'),
+        navToggle: document.querySelector('.nav-toggle'),
+        navMenu: document.querySelector('.nav-menu'),
+        
+        commsForm: document.getElementById('commsForm'),
+        agentIdInput: document.getElementById('agentId'),
+        frequencyInput: document.getElementById('frequency'),
+        messageInput: document.getElementById('message'),
+        transmissionStatus: document.getElementById('transmissionStatus'),
+        transmissionId: document.getElementById('transmissionId'),
+        
+        storageStatus: document.getElementById('storageStatus'),
+        cacheNote: document.getElementById('cacheNote'),
+        saveCacheBtn: document.getElementById('saveCache'),
+        clearCacheBtn: document.getElementById('clearCache'),
+        cacheDisplay: document.getElementById('cacheDisplay'),
+        
+        bgVideo: document.getElementById('bgVideo')
+    };
+}
