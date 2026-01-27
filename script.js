@@ -350,3 +350,6 @@ function updateSystemTime() {
         elements.consoleTime.textContent = timeString;
     }
 }
+
+function initNavigation() {
+    if (!elements.navToggle || !elements.navMenu) return;
