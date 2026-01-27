@@ -242,3 +242,12 @@ function verifyAccess() {
     
     const dob = new Date(year, month, day);
     const today = new Date();
+
+    if (isNaN(dob.getTime()) || 
+        dob.getDate() !== day || 
+        dob.getMonth() !== month || 
+        dob.getFullYear() !== year ||
+        dob > today) {
+        denyAccess();
+        return;
+    }
