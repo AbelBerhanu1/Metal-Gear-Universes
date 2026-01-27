@@ -155,3 +155,14 @@ function playNavSound() {
         navSound.play().catch(e => console.log('Nav sound failed:', e));
     }
 }
+
+function playPanelSound() {
+    if (!SYSTEM_CONFIG.soundEnabled) return;
+    
+    const panelSound = document.getElementById('panelSound');
+    if (panelSound) {
+        panelSound.volume = 0.4;
+        panelSound.currentTime = 0;
+        panelSound.play().catch(e => console.log('Panel sound failed:', e));
+    }
+}
