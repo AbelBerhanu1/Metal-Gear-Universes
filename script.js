@@ -411,3 +411,16 @@ function initCommsForm() {
         }
     });
 }
+
+function validateAgentId() {
+    const value = elements.agentIdInput.value.trim();
+    const pattern = /^[A-Z0-9]{3,8}$/;
+    
+    if (!pattern.test(value)) {
+        showError('agentIdError', 'Invalid format: 3-8 uppercase alphanumeric characters');
+        return false;
+    }
+    
+    clearError('agentIdError');
+    return true;
+}
