@@ -10,3 +10,7 @@ const SYSTEM_CONFIG = {
 };
 
 let elements = {};
+document.addEventListener('DOMContentLoaded', function () {
+    initializeElements();
+    initializeSystem();
+    initializeVideoBackground();
