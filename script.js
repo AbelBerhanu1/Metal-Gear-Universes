@@ -460,3 +460,29 @@ function validateForm() {
     
     return validations.every(v => v === true);
 }
+
+function sendTransmission() {
+    const transId = 'TRANS-' + Date.now().toString().slice(-6);
+    elements.transmissionId.textContent = transId;
+    
+    const transmissionData = {
+        id: transId,
+        agentId: elements.agentIdInput.value,
+        frequency: elements.frequencyInput.value,
+        message: elements.messageInput.value,
+        priority: document.getElementById('priority').value,
+        timestamp: new Date().toISOString()
+    };
+    
+    saveToStorage('transmissions', transmissionData);
+    
+    elements.transmissionStatus.classList.remove('hidden');
+    
+    elements.commsForm.reset();
+    
+    consoleLog(`Transmission ${transId} sent successfully`);
+    
+    setTimeout(() => {
+        elements.transmissionStatus.classList.add('hidden');
+    }, 5000);
+}
