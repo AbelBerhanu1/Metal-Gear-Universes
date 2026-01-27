@@ -605,3 +605,18 @@ function initSoundToggle() {
         consoleLog(`Sound ${SYSTEM_CONFIG.soundEnabled ? 'enabled' : 'disabled'}`);
     });
 }
+
+function checkExistingSession() {
+    const lastAccess = localStorage.getItem('foxhound_last_access');
+    const ageVerified = localStorage.getItem('foxhound_age_verified');
+    
+    if (lastAccess && ageVerified === 'true') {
+        const lastAccessDate = new Date(lastAccess);
+        const now = new Date();
+        const hoursSince = (now - lastAccessDate) / (1000 * 60 * 60);
+        
+        if (hoursSince < 24) {
+            consoleLog(`Age-verified session active (last access: ${formatTime(lastAccess)})`);
+        }
+    }
+}
