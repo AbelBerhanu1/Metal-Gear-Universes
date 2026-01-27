@@ -424,3 +424,16 @@ function validateAgentId() {
     clearError('agentIdError');
     return true;
 }
+
+function validateFrequency() {
+    const value = elements.frequencyInput.value.trim();
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if (!pattern.test(value) || !value.includes('.mil')) {
+        showError('frequencyError', 'Must be a valid .mil domain');
+        return false;
+    }
+    
+    clearError('frequencyError');
+    return true;
+}
