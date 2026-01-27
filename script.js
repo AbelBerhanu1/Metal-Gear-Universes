@@ -437,3 +437,15 @@ function validateFrequency() {
     clearError('frequencyError');
     return true;
 }
+
+function validateMessage() {
+    const value = elements.messageInput.value.trim();
+    
+    if (value.length < 20) {
+        showError('messageError', 'Message must be at least 20 characters');
+        return false;
+    }
+    
+    clearError('messageError');
+    return true;
+}
