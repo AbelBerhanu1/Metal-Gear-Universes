@@ -15,3 +15,18 @@
     --font-main: 'Roboto Condensed', 'Arial Narrow', sans-serif;
     --font-mono: 'Courier New', 'Lucida Console', monospace;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--terminal-bg);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
