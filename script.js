@@ -183,3 +183,9 @@ document.addEventListener('click', function(e) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const textInputs = document.querySelectorAll('input[type="text"], input[type="email"], textarea');
+    extInputs.forEach(input => {
+        input.addEventListener('keydown', function(e) {
+            if (e.key.length === 1 || e.key === 'Backspace' || e.key === 'Delete') {
+                playTypingSound();
+            }
+        });
