@@ -542,3 +542,13 @@ function updateCacheDisplay() {
     
     elements.cacheDisplay.innerHTML = html;
 }
+
+function updateStorageStatus() {
+    if (!elements.storageStatus) return;
+    
+    const allData = JSON.parse(localStorage.getItem(SYSTEM_CONFIG.storageKey) || '{}');
+    const itemCount = Object.values(allData).reduce((total, arr) => total + arr.length, 0);
+    
+    elements.storageStatus.textContent = `${itemCount} items`;
+    elements.storageStatus.className = 'status-value ' + (itemCount > 0 ? 'online' : 'warning');
+}
