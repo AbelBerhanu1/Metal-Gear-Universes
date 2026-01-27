@@ -270,4 +270,11 @@ function grantAccess() {
     elements.accessError.classList.add('hidden');
     elements.accessPanel.classList.add('hidden');
     elements.bootComplete.classList.remove('hidden');
+
+    localStorage.setItem('foxhound_age_verified', 'true');
+    localStorage.setItem('foxhound_last_access', new Date().toISOString());
+
+    localStorage.setItem('foxhound_clearance', '3'); 
     
+    consoleLog(`Age verified (${SYSTEM_CONFIG.minAge}+) — access granted`);
+}
