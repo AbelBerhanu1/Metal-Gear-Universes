@@ -278,3 +278,12 @@ function grantAccess() {
     
     consoleLog(`Age verified (${SYSTEM_CONFIG.minAge}+) — access granted`);
 }
+
+function denyAccess() {
+    elements.accessError.textContent = 'ACCESS DENIED — AGE RESTRICTED';
+    elements.accessError.classList.remove('hidden');
+    elements.accessCodeInput.value = '';
+    elements.accessCodeInput.focus();
+    
+    consoleLog('Access denied — age verification failed');
+}
