@@ -144,3 +144,14 @@ function playTypingSound() {
         typingSound.play().catch(e => console.log('Typing sound failed:', e));
     }
 }
+
+function playNavSound() {
+    if (!SYSTEM_CONFIG.soundEnabled) return;
+    
+    const navSound = document.getElementById('navSound');
+    if (navSound) {
+        navSound.volume = 0.4;
+        navSound.currentTime = 0;
+        navSound.play().catch(e => console.log('Nav sound failed:', e));
+    }
+}
