@@ -318,3 +318,8 @@ function enterSystem() {
                 console.warn(err);
             });
         }
+        initializeMainSystem();
+        consoleLog('System interface activated');
+        updateStorageStatus();
+    }, 800);
+}
