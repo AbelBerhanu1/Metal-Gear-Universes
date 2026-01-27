@@ -90,3 +90,12 @@ function initializeSystem() {
         }
     }
 }
+
+function initializeVideoBackground() {
+    if (elements.bgVideo) {
+        elements.bgVideo.muted = !SYSTEM_CONFIG.soundEnabled;
+        elements.bgVideo.play().catch(e => {
+            consoleLog('Video autoplay waiting for user interaction');
+        });
+    }
+}
