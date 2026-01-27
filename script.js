@@ -180,3 +180,6 @@ document.addEventListener('click', function(e) {
         playClickSound();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const textInputs = document.querySelectorAll('input[type="text"], input[type="email"], textarea');
