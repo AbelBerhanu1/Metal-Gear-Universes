@@ -667,3 +667,8 @@ function clearError(elementId) {
         element.style.display = 'none';
     }
 }
+
+window.accessRestricted = function() {
+    alert('ACCESS RESTRICTED\nThis archive requires Security Level 4 clearance.');
+    consoleLog('Access attempt denied - Insufficient clearance');
+};
