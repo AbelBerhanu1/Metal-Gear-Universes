@@ -126,3 +126,21 @@ function playClickSound() {
         sound.play().catch(e => console.log('Click sound failed:', e));
     }
 }
+
+function playTypingSound() {
+    if (!SYSTEM_CONFIG.soundEnabled) return;
+    
+    const now = Date.now();
+    if (now - SYSTEM_CONFIG.lastTypingTime < SYSTEM_CONFIG.typingSoundDelay) {
+        return;
+    }
+    
+    SYSTEM_CONFIG.lastTypingTime = now;
+    
+    const typingSound = document.getElementById('typingSound');
+    if (typingSound) {
+        typingSound.volume = 0.2;
+        typingSound.currentTime = 0;
+        typingSound.play().catch(e => console.log('Typing sound failed:', e));
+    }
+}
