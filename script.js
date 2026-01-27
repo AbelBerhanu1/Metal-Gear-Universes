@@ -353,3 +353,10 @@ function updateSystemTime() {
 
 function initNavigation() {
     if (!elements.navToggle || !elements.navMenu) return;
+    elements.navToggle.addEventListener('click', function() {
+        playNavSound();
+        elements.navMenu.classList.toggle('active');
+        this.setAttribute('aria-expanded', 
+            this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'
+        );
+    });
