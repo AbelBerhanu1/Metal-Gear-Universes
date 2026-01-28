@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "A soldier who controls swarms of 'bullet bees' housed within his own body. He can use them to create shields, weapons, and even clones of himself.",
             quote: "'Taste the sting of my hornets!'",
             story: "A member of the Cobra Unit who fought alongside The Boss in WWII. He can manipulate his bees through pheromones and high-frequency sounds, making him a terrifying forest-dwelling predator.",
-            image: "images/ThePainMGSDelta.jpg",
+            image: "images/ThePain.jpg",
             video: "Video/The Pain MGS3 REMAKE Full Scene - thevoicebox (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Pain"
         },
