@@ -265,3 +265,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const container = document.getElementById(containerId);
          if (!container) return;
          container.innerHTML = "";
+
+         timelineData[section].forEach(item => {
+            const entry = document.createElement("div");
+            entry.className = "timeline-entry";
