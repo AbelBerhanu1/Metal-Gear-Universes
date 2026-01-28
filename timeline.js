@@ -96,3 +96,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "The definitive end of Big Boss's physical presence in the world."
                 }
             },
+            {
+                year: "2005",
+                title: "Metal Gear Solid",
+                era: "Shadow Moses",
+                desc: "FOXHOUND rebels. Solid Snake learns the truth about Les Enfants Terribles.",
+                image: "images/Metal Gear Solid.jpg",
+                details: {
+                    context: "Liquid Snake leads FOXHOUND in a takeover of Shadow Moses Island.",
+                    consequences: "Solid Snake discovers he is a clone and defeats his brother Liquid.",
+                    legacy: "Reveals the existence of the Patriots and sets the stage for information age conflicts."
+                }
+            },
