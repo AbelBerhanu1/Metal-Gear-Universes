@@ -348,3 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
             loadSaved();
         });
     }
+
+    
+    loadSaved();
+});
