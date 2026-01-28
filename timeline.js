@@ -23,3 +23,16 @@ window.playPanelSound = () => playSound('panelSound', 0.4);
 
 document.addEventListener("DOMContentLoaded", () => {
     const timelineData = {
+        games: [
+            {
+                year: "1964",
+                title: "Metal Gear Solid 3: Snake Eater",
+                era: "Cold War",
+                desc: "Naked Snake undertakes Operation Snake Eater, killing The Boss and laying the foundation for Big Boss and the Patriots.",
+                image: "images/Metal Gear Solid Delta_ Snake Eater.jpg",
+                details: {
+                    context: "During the height of the Cold War, nations relied on covert operations instead of open conflict.",
+                    consequences: "The death of The Boss reshaped global power and shattered Naked Snake's identity.",
+                    legacy: "This mission created Big Boss and indirectly led to the Patriots."
+                }
+            },
