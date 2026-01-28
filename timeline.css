@@ -1,0 +1,15 @@
+:root {
+    --bg-main: #0a0c0b;
+    --bg-panel: #101412;
+    --border-main: #1a1f1c;
+
+    --text-main: #c7d1c7;
+    --text-dim: #8a958a;
+    --text-faint: #5a665a;
+
+    --accent-green: #4a6b2a;
+    --accent-gold: #8b753a;
+
+    --font-main: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+    --font-mono: 'Courier New', monospace;
+}
