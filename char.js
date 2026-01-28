@@ -535,4 +535,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalContent = document.getElementById("modalContent");
     const closeModal = document.querySelector(".close-modal");
     const filterButtons = document.querySelectorAll(".filter-btn");
-    
+
+    function renderCharacters(filter = "all") {
+        grid.innerHTML = "";
+
+        characters
+            .filter(c => {
+                if (filter === "all") return true;
+                const charFaction = c.faction.toLowerCase().replace(/[\s-]+/g, '_');
+                const filterKey = filter.toLowerCase().replace(/[\s-]+/g, '_');
+                return charFaction === filterKey;
+            })
+            .forEach(c => {
+                const card = document.createElement("div");
+                card.className = "character-card";
+
+                card.innerHTML = `
+                    ${c.image ? `<img src="${c.image}" alt="${c.name}" class="character-image">` : '<div class="image-placeholder">[CLASSIFIED IMAGE UNAVAILABLE]</div>'}
+                    <div class="character-name">${c.name}</div>
+                    <div class="character-role">${c.role}</div>
+                    <div class="character-faction">${formatFaction(c.faction)}</div>
+                `;
+
+                card.addEventListener("click", () => {
+                playSound('uiClickSound', 0.35);
+                openModal(c);});
+
+                grid.appendChild(card);
+            });
+    }
