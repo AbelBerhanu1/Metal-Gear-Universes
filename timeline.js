@@ -145,3 +145,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
         ],
+
+        events: [
+            {
+                year: "1945–1964",
+                title: "The Philosophers",
+                desc: "A shadow organization manipulates world politics after World War II.",
+                image: "images/The Philosophers.jpg",
+                details: {
+                    context: "Formed by WWII allies to control global resources and prevent future conflicts.",
+                    consequences: "Created massive secret funds and manipulated governments from the shadows.",
+                    legacy: "Eventually splintered into the Patriots and influenced all major Metal Gear events."
+                }
+            },
