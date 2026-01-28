@@ -72,3 +72,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Creates the perfect decoy, allowing the real Big Boss to work in the shadows."
                 }
             },
+            {
+                year: "1995",
+                title: "Metal Gear",
+                era: "Outer Heaven",
+                desc: "Solid Snake infiltrates Outer Heaven and unknowingly kills Venom Snake — the phantom Big Boss.",
+                image: "images/Metal Gear.jpg",
+                details: {
+                    context: "Outer Heaven emerges as a nuclear-armed nation-state threatening global stability.",
+                    consequences: "Solid Snake eliminates Venom Snake, believing he killed the real Big Boss.",
+                    legacy: "Solid Snake's legend begins as he unwittingly becomes a pawn in larger schemes."
+                }
+            },
