@@ -340,3 +340,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    if (clearBtn) {
+        clearBtn.addEventListener("click", () => {
+            if (window.playClickSound) window.playClickSound();
+            localStorage.removeItem("mg_timeline_note");
+            loadSaved();
+        });
+    }
