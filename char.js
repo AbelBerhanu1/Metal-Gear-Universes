@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Brilliant engineer with a strong moral compass. Son of Huey Emmerich. Creator of Metal Gear REX.",
             quote: "'Science is about finding the truth. Even if that truth is ugly.'",
             story: "Overcame his family's legacy to become a force for good. Co-founded Philanthropy with Solid Snake to stop Metal Gear proliferation. Known for his technical genius and social anxiety.",
-            image: "images/Otacon Metal Gear Solid 4.jpg",
+            image: "images/Otacon.jpg",
             video: "video/otacon.mp4",
             audio: "audio/voices/otacon.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Otacon"
