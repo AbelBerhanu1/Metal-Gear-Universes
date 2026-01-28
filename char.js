@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Young Costa Rican boy rescued by Big Boss. Became a radio operator for the Militaires Sans Frontières.",
             quote: "'I want to be strong, like you. I want to fight.'",
             story: "Survived the Sandinista conflict in Costa Rica. Saved by Big Boss and became his protege. His fate remains one of the series' most tragic stories, showing the cost of war on children.",
-            image: "images/┊ ִֶָ𓂃 ࣪˖ ִֶָ ᑕᕼIᑕO ་༘࿐.jpg",
+            image: "images/Chico.jpg",
             video: "video/chico.mp4",
             audio: "audio/voices/chico.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Chico"
