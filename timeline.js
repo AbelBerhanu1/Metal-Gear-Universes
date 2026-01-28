@@ -293,3 +293,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const front = entry.querySelector(".timeline-front");
             const expanded = entry.querySelector(".timeline-expanded");
             const closeBtn = entry.querySelector(".timeline-close");
+
+            if (front && expanded && closeBtn) {
+                front.addEventListener("click", () => {
+                    if (window.playPanelSound) window.playPanelSound();
+                    if (window.playClickSound) window.playClickSound();
+
+                    document.querySelectorAll(".timeline-expanded").forEach(e => e.classList.add("hidden"));
+                    expanded.classList.remove("hidden");
+                });
