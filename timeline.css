@@ -13,3 +13,63 @@
     --font-main: 'Roboto Condensed', 'Arial Narrow', sans-serif;
     --font-mono: 'Courier New', monospace;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-main);
+    color: var(--text-main);
+    font-family: var(--font-main);
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.main-header {
+    background: linear-gradient(to bottom, #0c0e0d, #080a09);
+    border-bottom: 1px solid var(--border-main);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+}
+
+.brand-mg {
+    color: var(--accent-green);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: var(--accent-green);
+}
+
+.hidden {
+    display: none;
+}
