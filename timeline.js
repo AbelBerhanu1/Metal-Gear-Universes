@@ -281,4 +281,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p class="timeline-desc">${item.desc}</p>
                     <div class="timeline-hint">▶ ACCESS DOSSIER</div>
                 </div>
-                
+
+                <div class="timeline-expanded hidden">
+                    <p><strong>OPERATION CONTEXT</strong><br>${item.details?.context || "Classified"}</p>
+                    <p><strong>IMMEDIATE CONSEQUENCES</strong><br>${item.details?.consequences || "Classified"}</p>
+                    <p><strong>STRATEGIC LEGACY</strong><br>${item.details?.legacy || "Classified"}</p>
+                    <div class="timeline-close">◀ CLOSE DOSSIER</div>
+                </div>
+            `;
