@@ -372,4 +372,17 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/otacon.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Otacon"
         },
+        {
+            id: 28,
+            name: "Liquid Snake",
+            faction: "foxhound",
+            role: "Terrorist Leader",
+            clearance: 2,
+            bio: "Twin brother of Solid Snake. Dominant genes from Big Boss. Led the FOXHOUND rebellion on Shadow Moses.",
+            quote: "'We're not just clones, brother. We're the future. And you're the past.'",
+            story: "Believed he inherited recessive genes from Big Boss, driving his inferiority complex and hatred for his brother. Masterminded the Shadow Moses incident to obtain Metal Gear REX and declare war on the Patriots.",
+            image: "images/Liquid Snake Metal Gear Solid 1.jpg",
+            audio: "Audio/Liquid_Snake_World_Gone_Soft.wav",
+            wiki: "https://metalgear.fandom.com/wiki/Liquid_Snake"
+        },
         
