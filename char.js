@@ -689,4 +689,13 @@ document.addEventListener("DOMContentLoaded", () => {
             modalMedia.forEach(m => m.pause());
         }
     });
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            playSound('navSound', 0.4);
+            document.querySelector(".filter-btn.active")?.classList.remove("active");
+            btn.classList.add("active");
+            renderCharacters(btn.dataset.filter);
+        });
+    });
     
