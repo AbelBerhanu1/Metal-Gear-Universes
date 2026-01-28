@@ -317,4 +317,17 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/chico.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Chico"
         },
+        {
+            id: 24,
+            name: "Huey Emmerich",
+            faction: "MSF",
+            role: "Scientist / Engineer",
+            clearance: 2,
+            bio: "Brilliant but morally compromised scientist. Father of Hal 'Otacon' Emmerich. Creator of early Metal Gear prototypes.",
+            quote: "'Science cannot progress without sacrifice... but some sacrifices are too great.'",
+            story: "Designed the first bipedal nuclear weapon carrier. Worked for multiple governments and private organizations. His unethical experiments and personal failures created a legacy of tragedy for his family.",
+            image: "images/ꉂ ᕼᑌEY EᗰᗰEᖇIᑕᕼ 𐭩.jpg",
+            video: "Video/Metal Gear Solid V The Phantom Pain - Huey Introduction - Generic Gaming (720p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Huey_Emmerich"
+        },
         
