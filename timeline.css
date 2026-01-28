@@ -136,3 +136,111 @@ body {
 .tab-content.active {
     display: block;
 }
+
+.timeline-entry {
+    background: var(--bg-panel);
+    border: 1px solid var(--border-main);
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.timeline-front {
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+}
+
+.timeline-front:hover {
+    background: rgba(74, 107, 42, 0.05);
+}
+
+.timeline-entry h3 {
+    font-size: 1rem;
+    color: var(--accent-gold);
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.1em;
+}
+
+.timeline-entry .timeline-year {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-faint);
+    margin-bottom: 0.25rem;
+}
+
+.timeline-entry .timeline-era {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-green);
+    margin-bottom: 0.5rem;
+}
+
+.timeline-entry .timeline-desc {
+    margin-top: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.4;
+}
+
+.timeline-hint {
+    margin-top: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-faint);
+    letter-spacing: 0.1em;
+}
+
+.timeline-expanded {
+    padding: 1.25rem;
+    background: rgba(10, 12, 11, 0.8);
+    border-top: 1px solid var(--border-main);
+    animation: fadeInUp 0.3s ease;
+}
+
+.timeline-expanded.hidden {
+    display: none;
+}
+
+.timeline-expanded p {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.timeline-expanded strong {
+    color: var(--accent-green);
+    font-weight: normal;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+}
+
+.timeline-close {
+    margin-top: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent-green);
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.timeline-close:hover {
+    color: var(--accent-gold);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
