@@ -411,4 +411,16 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/boris.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Boris_Vyacheslavovich_Popov"
         },
+        {
+            id: 31,
+            name: "Kevin Washington",
+            faction: "maverick",
+            role: "Military Counselor / Strategy",
+            clearance: 2,
+            bio: "Maverick's lead strategist and briefing officer. A former NGO worker who understands the socio-political climate of the regions Raiden infiltrates.",
+            quote: "'Don't just look at the mission, Raiden. Look at the people behind it.'",
+            story: "Kevin handles the logistics and planning for Maverick's operations. He often provides Raiden with cultural and political context, helping him understand the impact of their actions on local populations.",
+            image: "images/Kevin.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/Kevin_Washington"
+        },
         
