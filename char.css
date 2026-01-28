@@ -396,3 +396,10 @@ body {
     text-decoration: none;
 }
 
+.main-footer {
+    border-top: 1px solid var(--terminal-border);
+    margin-top: 4rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
