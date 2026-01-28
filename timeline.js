@@ -169,3 +169,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Directly leads to the creation of Diamond Dogs and the phantom legend."
                 }
             },
+            {
+                year: "1984",
+                title: "The Phantom Truth",
+                desc: "Venom Snake is revealed as a body double, preserving Big Boss's legend.",
+                image: "images/The Phantom Truth.jpg",
+                details: {
+                    context: "Big Boss uses a comatose soldier as his double to work in secret.",
+                    consequences: "Creates two Big Boss legends - one public, one operating in shadows.",
+                    legacy: "Establishes the theme of identity and legend over individual in the series."
+                }
+            },
