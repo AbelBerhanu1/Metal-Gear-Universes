@@ -462,4 +462,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Rising Revengeance - R-07 Assassination Attempt Senator Armstrong & Excelsus Intro PS3 - Jason's Video Games Source (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Steven_Armstrong"
         },
+        {
+            id: 35,
+            name: "Jetstream Sam",
+            faction: "desperado",
+            role: "Brazilian Samurai / Mercenary",
+            clearance: 2,
+            bio: "Samuel Rodrigues, a master of the New South American School of Brazilian Jiu-Jitsu. He wields the high-frequency Murasama blade with terrifying speed.",
+            quote: "'Show me a good time, Jack!'",
+            story: "A rival to Raiden who believes that 'losing one's purpose' is the greatest sin. He joined Desperado after failing to take down World Marshall, serving as the final test for Raiden's resolve.",
+            image: "images/Jet stream sam.jpg",
+            video: "Video/Metal Gear Rising Revengeance - 'Jetstream Sam Opening Cinematic' [1080p] TRUE-HD QUALITY - RajmanGaming HD (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Samuel_Rodrigues"
+        },
         
