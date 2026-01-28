@@ -59,4 +59,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/INVISIBLE  MGSV  TRIBUTE - Doomdy (720p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Venom_Snake"
         },
+        {
+            id: 4,
+            name: "Major Zero",
+            faction: "fox_unit",
+            role: "Founder of Cipher / The Patriots",
+            clearance: 2,
+            bio: "Former SAS member and commander of the FOX Unit. Originally Naked Snake's commanding officer, he eventually became his greatest ideological rival, seeking to control the world through information.",
+            quote: "'We'll be the ones to pull the strings. The world will be united under a single will.'",
+            story: "Following the death of The Boss, Zero founded the Patriots to realize her vision. However, his obsession with control led to a rift with Big Boss and the eventual creation of the AI network that ruled society.",
+            image: "images/ZERO -  Metal Gear Solid 3_ Snake Eater….jpg",
+            audio: "Audio/Zero_I_have_found_the_way.wav",
+            wiki: "https://metalgear.fancy.com/wiki/Zero"
+        },
         
