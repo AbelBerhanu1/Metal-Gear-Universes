@@ -98,4 +98,16 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Sigint.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Sigint"
         },
+        {
+            id: 7,
+            name: "Quiet",
+            faction: "diamond_dogs",
+            role: "Supernatural Sniper",
+            clearance: 2,
+            bio: "An elite assassin infected with 'The One Who Covers' parasites. She possesses superhuman speed, strength, and the ability to photosynthesize, but cannot speak without triggering a deadly plague.",
+            quote: "(Silence/Humming)",
+            story: "Originally sent by XOF to kill Big Boss, she was defeated and joined Diamond Dogs. She eventually sacrificed herself by speaking English to save Venom Snake's life in the Afghan desert.",
+            image: "images/Metal Gear Solid V_ The Phantom Pain.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/Quiet"
+        },
         
