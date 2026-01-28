@@ -370,3 +370,10 @@ body {
     border: 1px solid var(--terminal-border);
 }
 
+.wiki-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--terminal-border);
+    text-align: center;
+}
+
