@@ -240,3 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         ]
     };
+
+     const tabButtons = document.querySelectorAll(".tab-btn");
+    const contents = document.querySelectorAll(".tab-content");
+    
