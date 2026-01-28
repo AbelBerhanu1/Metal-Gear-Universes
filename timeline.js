@@ -60,3 +60,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Sets the stage for the Phantom Pain and the creation of Venom Snake."
                 }
             },
+            {
+                year: "1984",
+                title: "Metal Gear Solid V: The Phantom Pain",
+                era: "The Phantom War",
+                desc: "Venom Snake leads Diamond Dogs. A manufactured Big Boss ensures the survival of a myth instead of a man.",
+                image: "images/Metal Gear solid 5_ the Phantom Pain.jpg",
+                details: {
+                    context: "Big Boss awakens from a 9-year coma to find his identity and organization stolen.",
+                    consequences: "Venom Snake becomes a phantom body double, perpetuating the Big Boss legend.",
+                    legacy: "Creates the perfect decoy, allowing the real Big Boss to work in the shadows."
+                }
+            },
