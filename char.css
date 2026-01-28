@@ -403,3 +403,18 @@ body {
     text-align: center;
 }
 
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: var(--terminal-border);
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: var(--accent-green);
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-gold);
+}
