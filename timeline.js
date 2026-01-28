@@ -108,3 +108,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Reveals the existence of the Patriots and sets the stage for information age conflicts."
                 }
             },
+            {
+                year: "2007–2009",
+                title: "Metal Gear Solid 2: Sons of Liberty",
+                era: "Information Control",
+                desc: "Raiden uncovers the Patriots' AI system and the manipulation of digital truth.",
+                image: "images/mgs2cover.jpg",
+                details: {
+                    context: "Solid Snake investigates the Manhattan incident, uncovering S3 Plan.",
+                    consequences: "Raiden becomes a new hero while learning about AI-controlled reality.",
+                    legacy: "Exposes how information control shapes society in the digital age."
+                }
+            },
