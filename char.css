@@ -340,3 +340,15 @@ body {
     margin: 1.5rem 0;
     text-align: left;
 }
+
+.professional-excuse {
+    color: #8a958a;
+    font-style: italic;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
