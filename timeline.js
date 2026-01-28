@@ -329,3 +329,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ? `Saved Progress: ${note}`
             : "No saved progress.";
     }
+
+    if (saveBtn) {
+        saveBtn.addEventListener("click", () => {
+            if (window.playClickSound) window.playClickSound();
+            if (noteInput && noteInput.value.trim()) {
+                localStorage.setItem("mg_timeline_note", noteInput.value.trim());
+                loadSaved();
+                noteInput.value = "";
+            }
+        });
+    }
