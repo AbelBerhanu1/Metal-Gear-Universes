@@ -269,3 +269,16 @@ document.addEventListener("DOMContentLoaded", () => {
          timelineData[section].forEach(item => {
             const entry = document.createElement("div");
             entry.className = "timeline-entry";
+
+            entry.innerHTML = `
+                <div class="timeline-front">
+                    <div class="timeline-image-container">
+                        <img src="${item.image}" alt="${item.title}" class="timeline-img">
+                    </div>
+                    <h3>${item.title}</h3>
+                    <span class="timeline-year">${item.year}</span>
+                    ${item.era ? `<span class="timeline-era">${item.era}</span>` : ""}
+                    <p class="timeline-desc">${item.desc}</p>
+                    <div class="timeline-hint">▶ ACCESS DOSSIER</div>
+                </div>
+                
