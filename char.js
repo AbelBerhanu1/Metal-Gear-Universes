@@ -435,4 +435,18 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Courtney Collins.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Courtney_Collins"
         },
+        {
+            id: 33,
+            name: "Doktor",
+            faction: "maverick",
+            role: "Cybernetics Specialist",
+            clearance: 10,
+            bio: "Real name Wilhelm Voigt. A brilliant German scientist specializing in cybernetic engineering. He maintains and upgrades Raiden's chassis and weaponry.",
+            quote: "'A spectacular demonstration of cybernetic prowess!'",
+            story: "Doktor is obsessed with the evolution of cyborg technology. He provides Raiden with technical upgrades and analyzes the 'Left Arms' of enemies to harvest battle data and advanced tech.",
+            image: "images/Doktorr.jpg",
+            video: "video/doktor.mp4",
+            audio: "audio/voices/doktor.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Doktor"
+        },
         
