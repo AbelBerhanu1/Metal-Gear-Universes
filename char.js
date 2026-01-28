@@ -251,6 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
             quote: "'I'm no hero. Never was, never will be. I'm just an old killer hired to do some wet work.'",
             story: "Survived the Liberian Civil War as a child. Was manipulated by the Patriots during the Big Shell incident. After being captured and turned into a cyborg, he became a legendary mercenary known as 'Jack the Ripper.'",
             image: "images/Raiden.jpg",
+            video: "Video/Metal Gear Rising Revengeance - Opening Cutscene - The Gameplay Dudes (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Raiden"
         },
         {
