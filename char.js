@@ -46,4 +46,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Solid Delta Snake Eater - The Boss Final Boss Fight (PS5 Pro 4K 60FPS) - Boss Fight Database (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Boss"
         },
+        {
+            id: 3,
+            name: "Venom Snake",
+            faction: "diamond_dogs", 
+            role: "The Phantom / Commander of Diamond Dogs",
+            clearance: 2,
+            bio: "A combat medic who underwent mental and physical reconstruction to serve as a body double for Big Boss. He leads Diamond Dogs with a robotic prosthetic and a shrapnel 'horn' embedded in his skull.",
+            quote: "'I'm already a demon. Heaven's not my kind of place anyway.'",
+            story: "After the destruction of MSF, he was transformed into a 'Phantom' to draw attention away from the real Big Boss. He built Diamond Dogs and faced Skull Face, eventually accepting his role as part of the legend.",
+            image: "images/Metal Gear Solid V_ The Phantom Pain _ Big Boss!.jpg",
+            video: "Video/INVISIBLE  MGSV  TRIBUTE - Doomdy (720p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Venom_Snake"
+        },
         
