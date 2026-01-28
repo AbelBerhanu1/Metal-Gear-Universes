@@ -397,4 +397,18 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Sniper Wolf  Metal Gear Solid 1.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Sniper_Wolf"
         },
+        {
+            id: 30,
+            name: "Boris Vyacheslavovich Popov",
+            faction: "maverick",
+            role: "President of Maverick Security",
+            clearance: 10,
+            bio: "A Russian veteran and former comrade of Sergei Gurlukovich. He founded Maverick Security Counseling, Inc. to provide legitimate PMC services in the post-Patriots era.",
+            quote: "'We are not killers, Raiden. We are guardians.'",
+            story: "Boris provides the tactical oversight for Raiden's missions. He is a man of honor who tries to navigate the chaotic world of privatized warfare while staying true to his moral compass.",
+            image: "images/Boris Vyacheslavovich Popov.jpg",
+            video: "video/boris.mp4",
+            audio: "audio/voices/boris.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Boris_Vyacheslavovich_Popov"
+        },
         
