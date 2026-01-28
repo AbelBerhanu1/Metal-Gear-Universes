@@ -332,3 +332,11 @@ body {
     margin-bottom: 1rem;
     animation: flash 1s infinite;
 }
+
+.redacted-box {
+    background: #000;
+    border: 1px solid #ff4d4d;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    text-align: left;
+}
