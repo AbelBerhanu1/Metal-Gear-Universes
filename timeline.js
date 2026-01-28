@@ -191,3 +191,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Forces humanity to confront its reliance on automated control systems."
                 }
             },
+            {
+                year: "2014",
+                title: "AI Destruction",
+                desc: "The Patriots' AI network is destroyed by Solid Snake.",
+                image: "images/AI Destruction.jpg",
+                details: {
+                    context: "Solid Snake infiltrates the Patriots' core system with help from Otacon.",
+                    consequences: "Global control system collapses, freeing nations from AI manipulation.",
+                    legacy: "Creates a new era of uncertainty without centralized information control."
+                }
+            }
+        ],
