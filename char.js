@@ -665,4 +665,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
+
+        modalContent.innerHTML = modalHTML;
+        modal.classList.add("show");
         
