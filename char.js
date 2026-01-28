@@ -187,4 +187,17 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Code Talker; a wise man denied his homeland_.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Code_Talker"
         },
+        {
+            id: 14,
+            name: "Colonel Volgin",
+            faction: "others",
+            role: "GRU Commander / Thunderbolt",
+            clearance: 2,
+            bio: "A sadistic Soviet Colonel with the ability to manipulate electricity. He sought to use the Philosophers' Legacy to overthrow the Soviet government and spark a new world war.",
+            quote: "'Kuwabara... Kuwabara... I'll show you the true power of the Thunderbolt!'",
+            story: "The main antagonist of Snake Eater. He commanded the fortress Groznyj Grad and the Shagohod. After his apparent death, his vengeful spirit returned as the 'Man on Fire' in 1984.",
+            image: "images/Volgin.jpg",
+            video: "Video/Volgin Fires The Nuke MGS3 REMAKE (Full Scene) HD - Manalithy (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Yevgeny_Borisovitch_Volgin"
+        },
         
