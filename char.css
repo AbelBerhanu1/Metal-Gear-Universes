@@ -309,3 +309,10 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+
+.story-section {
+    background: rgba(26, 31, 28, 0.5);
+    padding: 1rem;
+    border: 1px solid var(--terminal-border);
+    margin: 1.5rem 0;
+}
