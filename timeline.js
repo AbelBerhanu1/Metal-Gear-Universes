@@ -227,3 +227,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Proves that individuals can change history, despite being engineered pawns."
                 }
             },
+            {
+                year: "2014–2018+",
+                title: "After the Patriots",
+                desc: "Humanity enters an unstable era of free information and endless conflict.",
+                image: "images/After the Patriots.jpg",
+                details: {
+                    context: "World without the Patriots' controlling AI systems.",
+                    consequences: "Power vacuum leads to rise of private military companies and new conflicts.",
+                    legacy: "Humanity must learn to govern itself without artificial control systems."
+                }
+            }
+        ]
+    };
