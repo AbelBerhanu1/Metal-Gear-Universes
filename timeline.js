@@ -84,3 +84,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Solid Snake's legend begins as he unwittingly becomes a pawn in larger schemes."
                 }
             },
+            {
+                year: "1999",
+                title: "Metal Gear 2: Solid Snake",
+                era: "Zanzibar Land",
+                desc: "Solid Snake kills the real Big Boss, ending the era of legendary soldiers.",
+                image: "images/konami-kukeiha-club-metal-gear-2-solid-snake_800x.jpg",
+                details: {
+                    context: "Big Boss resurfaces in Zanzibar Land, creating another rogue nuclear state.",
+                    consequences: "Solid Snake faces and ultimately defeats his genetic father and ideological opposite.",
+                    legacy: "The definitive end of Big Boss's physical presence in the world."
+                }
+            },
