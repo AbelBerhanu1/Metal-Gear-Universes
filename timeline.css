@@ -279,3 +279,24 @@ body {
     font-family: var(--font-mono);
     font-size: 0.75rem;
 }
+
+.storage-btn {
+    background: transparent;
+    border: 1px solid var(--border-main);
+    color: var(--text-dim);
+    padding: 0.4rem 0.8rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.storage-btn:hover {
+    border-color: var(--accent-green);
+    color: var(--accent-green);
+}
+
+.storage-btn.clear:hover {
+    border-color: #8b2a2a;
+    color: #8b2a2a;
+}
+
