@@ -673,3 +673,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (media.id !== 'codecOpenSound') media.pause();
         });
     }
+
+    closeModal.addEventListener("click", () => {
+        playSound('codecCloseSound', 0.35);
+        modal.classList.remove("show");
+        const modalMedia = modalContent.querySelectorAll('video, audio');
+        modalMedia.forEach(m => m.pause());
+    });
+
+    
