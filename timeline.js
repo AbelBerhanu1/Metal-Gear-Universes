@@ -48,3 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "MSF becomes the prototype for Outer Heaven and future private military companies."
                 }
             },
+            {
+                year: "1974–1975",
+                title: "Metal Gear Solid V: Ground Zeroes",
+                era: "Phantom Genesis",
+                desc: "Mother Base is destroyed. Big Boss disappears. The world believes the legend is dead.",
+                image: "images/Metal Gear Solid V; Ground Zeroes (Sıfır Noktası, 18 Mart 2014).jpg",
+                details: {
+                    context: "Cipher launches a surprise attack on MSF's Mother Base to eliminate Big Boss.",
+                    consequences: "MSF is destroyed, Paz and Chico are captured, and Big Boss falls into a coma.",
+                    legacy: "Sets the stage for the Phantom Pain and the creation of Venom Snake."
+                }
+            },
