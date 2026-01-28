@@ -263,3 +263,19 @@ body {
     color: var(--text-dim);
     margin-bottom: 1rem;
 }
+
+.storage-controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.storage-controls input {
+    background: black;
+    border: 1px solid var(--border-main);
+    color: var(--text-main);
+    padding: 0.4rem 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+}
