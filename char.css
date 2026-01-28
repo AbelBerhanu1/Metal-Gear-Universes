@@ -301,3 +301,11 @@ body {
     background: rgba(139, 117, 58, 0.05);
     padding: 1rem;
 }
+
+.quote-section blockquote {
+    font-style: italic;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
