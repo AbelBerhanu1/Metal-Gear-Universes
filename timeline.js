@@ -317,3 +317,8 @@ document.addEventListener("DOMContentLoaded", () => {
     renderTimeline("games", "gamesContent");
     renderTimeline("events", "eventsContent");
     renderTimeline("canon", "canonContent");
+
+    const saveBtn = document.getElementById("saveProgressBtn");
+    const clearBtn = document.getElementById("clearProgressBtn");
+    const noteInput = document.getElementById("saveNote");
+    const savedData = document.getElementById("savedData");
