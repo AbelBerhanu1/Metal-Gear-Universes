@@ -305,3 +305,16 @@ body {
     font-size: 0.75rem;
     color: var(--text-faint);
 }
+
+.main-footer {
+    margin-top: 4rem;
+    border-top: 1px solid var(--border-main);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.main-footer p {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-faint);
+}
