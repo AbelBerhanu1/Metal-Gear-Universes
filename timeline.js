@@ -322,3 +322,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const clearBtn = document.getElementById("clearProgressBtn");
     const noteInput = document.getElementById("saveNote");
     const savedData = document.getElementById("savedData");
+
+    function loadSaved() {
+        const note = localStorage.getItem("mg_timeline_note");
+        savedData.textContent = note
+            ? `Saved Progress: ${note}`
+            : "No saved progress.";
+    }
