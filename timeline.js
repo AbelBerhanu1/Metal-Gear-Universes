@@ -251,4 +251,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             tabButtons.forEach(b => b.classList.remove("active"));
             contents.forEach(c => c.classList.remove("active"));
-            
+
+            btn.classList.add("active");
+            const targetId = btn.dataset.tab + "Content";
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.classList.add("active");
+            }
+        });
+    });
+    
