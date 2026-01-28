@@ -655,4 +655,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
+
+        if (character.wiki) {
+            modalHTML += `
+                <div class="wiki-section">
+                    <a href="${character.wiki}" target="_blank" class="wiki-link">
+                        ▶ ACCESS FULL DOSSIER (CLASSIFIED INTEL)
+                    </a>
+                </div>
+            `;
+        }
         
