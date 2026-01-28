@@ -200,4 +200,18 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Volgin Fires The Nuke MGS3 REMAKE (Full Scene) HD - Manalithy (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Yevgeny_Borisovitch_Volgin"
         },
+        {
+            id: 15,
+            name: "Solid Snake",
+            faction: "foxhound",
+            role: "Infiltration Specialist",
+            clearance: 5,
+            bio: "Clone of Big Boss, legendary operative who saved the world multiple times. Known for his cynical outlook and relentless determination. Codenamed 'Iroquois Pliskin' during the Big Shell incident.",
+            quote: "'There's no such thing in the world as absolute reality. Most of what they call real is actually fiction. What you think you see is only as real as your brain tells you it is.'",
+            story: "Main protagonist of the Metal Gear series. A former Green Beret and FOXHOUND operative who took down Metal Gear multiple times. Despite being a clone destined to die young, he chose his own path and became a legend.",
+            image: "images/Solid Snake.jpg",
+            video: "video/snake.mp4",
+            audio: "audio/voices/snake.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Solid_Snake"
+        },
         
