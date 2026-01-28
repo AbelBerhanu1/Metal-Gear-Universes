@@ -265,3 +265,12 @@ body {
     border-bottom: 1px solid var(--terminal-border);
     padding-bottom: 0.5rem;
 }
+
+.modal-content h3 {
+    color: var(--accent-gold);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 1.5rem 0 0.75rem 0;
+    font-family: var(--font-mono);
+}
