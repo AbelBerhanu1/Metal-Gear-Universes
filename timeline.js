@@ -302,3 +302,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.querySelectorAll(".timeline-expanded").forEach(e => e.classList.add("hidden"));
                     expanded.classList.remove("hidden");
                 });
+
+                closeBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    if (window.playClickSound) window.playClickSound();
+                    expanded.classList.add("hidden");
+                });
+            }
+
+            container.appendChild(entry);
+        });
+    }
