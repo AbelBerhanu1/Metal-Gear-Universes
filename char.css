@@ -255,3 +255,13 @@ body {
     background: var(--accent-red);
     color: black;
 }
+
+.modal-content h2 {
+    color: var(--accent-green);
+    margin-bottom: 1rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--terminal-border);
+    padding-bottom: 0.5rem;
+}
