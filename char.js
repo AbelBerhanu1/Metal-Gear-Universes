@@ -224,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
             quote: "'We have no nation, no philosophy, no ideology. We go where we're needed, fighting not for country, not for government, but for ourselves. We need no reason to fight.'",
             story: "Originally known as Naked Snake, he became Big Boss after defeating his mentor, The Boss. Created the concept of the nation-less army and inspired generations of soldiers. His DNA was used to create the Les Enfants Terribles project.",
             image: "images/Big Boss.jpg",
+            video: "Video/Big Boss Salute Metal Gear Solid 4 RPCS3 #shorts - Spyro Chris Gaming (1080p, h264).mp4",
             audio: "Audio/Big_Boss_No_Nation.wav",
             wiki: "https://metalgear.fandom.com/wiki/Big_Boss"
         },
