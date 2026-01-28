@@ -475,4 +475,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Rising Revengeance - 'Jetstream Sam Opening Cinematic' [1080p] TRUE-HD QUALITY - RajmanGaming HD (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Samuel_Rodrigues"
         },
+        {
+            id: 36,
+            name: "Blade Wolf",
+            faction: "maverick",
+            role: "AI Prototype / Scout",
+            clearance: 2,
+            bio: "An Unmanned Gear (IFP-V1) with a highly advanced AI. Originally programmed for assassination, he was rebuilt by Maverick to assist Raiden.",
+            quote: "'I possess intellect, yet I am a tool. I am searching for my own directives.'",
+            story: "After being defeated by Raiden, the wolf-like robot was reprogrammed. He eventually developed his own sense of self, choosing to fight alongside Raiden rather than serve a master.",
+            image: "images/Metal Gear Rising (1).jpg",
+            video: "Video/Blade Wolf Introduction - Scott Andrew (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Blade_Wolf"
+        },
         
