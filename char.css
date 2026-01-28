@@ -250,3 +250,8 @@ body {
     border: 1px solid var(--accent-red);
     transition: all 0.2s ease;
 }
+
+.close-modal:hover {
+    background: var(--accent-red);
+    color: black;
+}
