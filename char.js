@@ -290,4 +290,17 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Colonel Roy Campbell.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Roy_Campbell"
         },
+        {
+            id: 22,
+            name: "Psycho Mantis",
+            faction: "foxhound",
+            role: "Psychic / Interrogator",
+            clearance: 2,
+            bio: "Powerful psychic who can read minds and control people. Hates humanity due to childhood trauma.",
+            quote: "'I can see into your mind... I know everything about you.'",
+            story: "Born with powerful psychic abilities that made him an outcast. Joined FOXHOUND and became Liquid Snake's most dangerous operative. Known for his iconic boss battle where he reads the player's memory card.",
+            image: "images/Psycho Mantis ☆.jpg",
+            video: "Video/Metal Gear Solid 5 Phantom Pain - Psycho Mantis (MGS5) - DarkSagor (720p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Psycho_Mantis"
+        },
         
