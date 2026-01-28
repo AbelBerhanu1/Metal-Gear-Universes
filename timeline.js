@@ -289,3 +289,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="timeline-close">◀ CLOSE DOSSIER</div>
                 </div>
             `;
+
+            const front = entry.querySelector(".timeline-front");
+            const expanded = entry.querySelector(".timeline-expanded");
+            const closeBtn = entry.querySelector(".timeline-close");
