@@ -243,4 +243,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
      const tabButtons = document.querySelectorAll(".tab-btn");
     const contents = document.querySelectorAll(".tab-content");
-    
+
+    tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            if (window.playClickSound) window.playClickSound();
+            if (window.playNavSound) window.playNavSound();
