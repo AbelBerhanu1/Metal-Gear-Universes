@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Centenarian sniper with supernatural abilities. Can photosynthesize and merge with nature. Considered the greatest sniper in history.",
             quote: "'Time is on my side... always.'",
             story: "Over 100 years old, The End fought in both World Wars. Member of the Cobra Unit. His unique biology allows him to go without food or water for weeks. The only enemy that can literally die of old age if the player waits long enough.",
-            image: "images/MGS3 Remastered - The End.jpg",
+            image: "images/The End.jpg",
             video: "Video/Metal Gear Solid Delta Snake Eater - Full The End Boss Fight (4K) - Sirloin (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_End"
         },
