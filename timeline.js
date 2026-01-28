@@ -132,3 +132,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Frees humanity from AI control but leaves a power vacuum in global affairs."
                 }
             },
+            {
+                year: "2018",
+                title: "Metal Gear Rising: Revengeance",
+                era: "Post-Patriots World",
+                desc: "Raiden confronts privatized warfare in a world without ideological control.",
+                image: "images/Amazon_com_ Metal Gear Rising_ Revengeance….jpg",
+                details: {
+                    context: "In a world without Patriots, private military companies fill the power vacuum.",
+                    consequences: "Raiden embraces his cyborg abilities to fight new forms of warfare.",
+                    legacy: "Shows the chaotic aftermath when centralized control systems collapse."
+                }
+            }
+        ],
