@@ -72,4 +72,18 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "Audio/Zero_I_have_found_the_way.wav",
             wiki: "https://metalgear.fancy.com/wiki/Zero"
         },
+        {
+            id: 5,
+            name: "Para-Medic",
+            faction: "fox_unit",
+            role: "Medical and Biolife Specialist",
+            clearance: 4,
+            bio: "A movie-obsessed medical specialist who provided support during the Virtuous Mission and Operation Snake Eater. She later became a key founding member of the Patriots.",
+            quote: "'Snake, have you ever seen 'Godzilla'? It's a classic!'",
+            story: "Known as Dr. Clark in later years, she was responsible for the Les Enfants Terribles cloning project and the cyborg ninja experiments on Gray Fox. Her medical genius shaped the darker side of Patriot history.",
+            image: "images/౨ৎ (1).jpg",
+            video: "video/paramedic.mp4",
+            audio: "audio/voices/paramedic.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Para-Medic"
+        },
         
