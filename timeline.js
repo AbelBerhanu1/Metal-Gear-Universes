@@ -216,3 +216,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "His ideology spawns Outer Heaven, Foxhound, and inspires countless followers."
                 }
             },
+            {
+                year: "1995–2009",
+                title: "Legacy of the Snakes",
+                desc: "Solid Snake dismantles the systems created by his predecessors.",
+                image: "images/Legacy of the Snakes.jpg",
+                details: {
+                    context: "Solid Snake's journey from pawn to savior across multiple conflicts.",
+                    consequences: "Systematically destroys every system Big Boss and the Patriots created.",
+                    legacy: "Proves that individuals can change history, despite being engineered pawns."
+                }
+            },
