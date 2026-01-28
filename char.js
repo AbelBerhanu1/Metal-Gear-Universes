@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "An incredibly agile soldier with a double-jointed body and the ability to blend into his surroundings like a chameleon. He uses a specialized crossbow with venom-tipped bolts.",
             quote: "'The fear... I can smell it coming off you in waves!'",
             story: "Known for his terrifying appearance and spider-like movements. He set traps throughout the Graniny Gorki forests to hunt Naked Snake, utilizing his 'stealth camouflage' parasites.",
-            image: "images/MGS3 Remastered - The Fear.jpg",
+            image: "images/The Fear.jpg",
             video: "Video/The Fear MGS3 REMAKE Full Scene - thevoicebox (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Fear"
         },
