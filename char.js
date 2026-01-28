@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Former child soldier turned elite operative. Initially a rookie during the Big Shell incident, he later becomes the most advanced cyborg ninja in the world.",
             quote: "'I'm no hero. Never was, never will be. I'm just an old killer hired to do some wet work.'",
             story: "Survived the Liberian Civil War as a child. Was manipulated by the Patriots during the Big Shell incident. After being captured and turned into a cyborg, he became a legendary mercenary known as 'Jack the Ripper.'",
-            image: "images/— raiden METAL GEAR_.jpg",
+            image: "images/Raiden.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Raiden"
         },
         {
