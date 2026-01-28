@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "An elite assassin infected with 'The One Who Covers' parasites. She possesses superhuman speed, strength, and the ability to photosynthesize, but cannot speak without triggering a deadly plague.",
             quote: "(Silence/Humming)",
             story: "Originally sent by XOF to kill Big Boss, she was defeated and joined Diamond Dogs. She eventually sacrificed herself by speaking English to save Venom Snake's life in the Afghan desert.",
-            image: "images/Quiet.jpg.jpg",
+            image: "images/Quiet.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Quiet"
         },
         {
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "The mysterious, disfigured leader of the XOF strike force. A survivor of a childhood trauma that robbed him of his language and his face, he seeks to destroy the English language with parasites.",
             quote: "'Words can kill. I will give the world its freedom... by taking its speech.'",
             story: "He operated in the shadows of the FOX unit for years. He destroyed Mother Base in 1975 and later attempted to use Sahelanthropus to force the world into a nuclear standoff controlled by his parasites.",
-            image: "images/Skull Face (XOF)  _ Metal Gear Solid V The Phantom….jpg",
+            image: "images/Skull Face.jpg",
             video: "Video/Skull Face Intro First Scene — Metal Gear Solid 5 - Gamer Guru (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Skull_Face"
         },
