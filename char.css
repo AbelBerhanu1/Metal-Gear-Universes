@@ -274,3 +274,10 @@ body {
     margin: 1.5rem 0 0.75rem 0;
     font-family: var(--font-mono);
 }
+
+.character-title {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
