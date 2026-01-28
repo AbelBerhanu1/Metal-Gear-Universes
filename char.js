@@ -497,7 +497,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "A massive cyborg wielding dual high-frequency 'Bloodlust' machetes. He is the leader of the Winds of Destruction and a lover of pure warfare.",
             quote: "'Like I said, kids are cruel, Jack. And I'm very in touch with my inner child.'",
             story: "Sundowner lives for the 'good old days after 9/11.' He believes that war is a natural state and works to reignite global conflict to keep the PMC industry thriving.",
-            image: "images/Sundowner is the leader of the three deadly pack….jpg",
+            image: "images/Sundowner.jpg",
             video: "Video/sundowner opening cutscene - Maniacal Mallard (720p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Sundowner"
         },
