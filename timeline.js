@@ -260,4 +260,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-    
+
+    function renderTimeline(section, containerId) {
+        const container = document.getElementById(containerId);
