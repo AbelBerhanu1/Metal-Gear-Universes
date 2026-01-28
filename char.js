@@ -668,4 +668,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         modalContent.innerHTML = modalHTML;
         modal.classList.add("show");
-        
+
+        document.querySelectorAll('video, audio').forEach(media => {
+            if (media.id !== 'codecOpenSound') media.pause();
+        });
+    }
