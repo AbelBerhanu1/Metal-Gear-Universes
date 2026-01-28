@@ -281,3 +281,10 @@ body {
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
+
+.modal-content p {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
