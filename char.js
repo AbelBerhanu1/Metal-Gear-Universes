@@ -581,4 +581,29 @@ document.addEventListener("DOMContentLoaded", () => {
         const key = faction.toLowerCase().replace(/[\s-]+/g, "_");
         return factionNames[key] || faction.toUpperCase().replace("_", " ");
     }
-    
+
+    function openModal(character) {
+        const userClearance = parseInt(localStorage.getItem('foxhound_clearance')) || 0;
+        if (character.clearance > userClearance) {
+            playSound('uiClickSound', 0.5);
+            modalContent.innerHTML = `
+                <div class="access-denied-container" style="padding: 30px; border: 2px solid #8b2a2a; background: rgba(20,0,0,0.95); color: #ff4d4d; font-family: 'Courier New', monospace; text-align: center;">
+                    <h2 style="letter-spacing: 5px; animation: flash 1s infinite; margin-bottom: 20px;">⚠️ SECURITY BREACH ⚠️</h2>
+                    <div style="margin-bottom: 20px; padding: 15px; background: #000; border: 1px solid #ff4d4d; text-align: left;">
+                        <p style="margin: 5px 0;"><strong>ERROR:</strong> INSUFFICIENT CLEARANCE</p>
+                        <p style="margin: 5px 0;"><strong>REQUIRED:</strong> LEVEL ${character.clearance}</p>
+                        <p style="margin: 5px 0;"><strong>CURRENT:</strong> LEVEL ${userClearance}</p>
+                    </div>
+                    <p style="color: #8a958a; font-style: italic; font-size: 0.9rem; line-height: 1.5; margin-bottom: 20px;">
+                        Access to Dossier ID: ${character.id} (${character.name.toUpperCase()}) is restricted to authorized personnel only. 
+                        Your biometric signature does not match required parameters for Level ${character.clearance} intelligence.
+                    </p>
+                    <button class="panel-btn" onclick="document.querySelector('.close-modal').click()" 
+                            style="background: transparent; color: #ff4d4d; border: 1px solid #ff4d4d; padding: 10px 20px; cursor: pointer; text-transform: uppercase;">
+                        Return to Archive
+                    </button>
+                </div>
+            `;
+            modal.classList.add("show");
+            return;
+        }
