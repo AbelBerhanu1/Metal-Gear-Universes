@@ -385,4 +385,16 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "Audio/Liquid_Snake_World_Gone_Soft.wav",
             wiki: "https://metalgear.fandom.com/wiki/Liquid_Snake"
         },
+        {
+            id: 29,
+            name: "Sniper Wolf",
+            faction: "foxhound",
+            role: "Sniper",
+            clearance: 2,
+            bio: "Kurdish sniper saved by Big Boss. Considered the best sniper in FOXHOUND after The End.",
+            quote: "'I live for the hunt. The moment when the crosshairs align... and time stops.'",
+            story: "Orphaned during the Gulf War and rescued by Big Boss. Devoted to him completely. Her tragic love story with Otacon highlights the human cost of war.",
+            image: "images/Sniper Wolf  Metal Gear Solid 1.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/Sniper_Wolf"
+        },
         
