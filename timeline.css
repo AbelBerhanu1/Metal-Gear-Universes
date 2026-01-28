@@ -300,3 +300,8 @@ body {
     color: #8b2a2a;
 }
 
+.saved-data {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-faint);
+}
