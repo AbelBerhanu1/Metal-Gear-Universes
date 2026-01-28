@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "A former Soviet cosmonaut who suffered horrific burns during a failed atmospheric reentry. He channels his eternal rage through a specialized flame-retardant suit and a powerful flamethrower.",
             quote: "'I've seen the fire of the stars... now you will feel the fire of my hate!'",
             story: "After returning from space, he felt only a constant, burning anger. He joined the Cobra Unit to find a place where his fire could truly consume his enemies.",
-            image: "images/The Fury - Metal Gear Solid 3_ Snake Eater….jpg",
+            image: "images/The Fury.jpg",
             video: "Video/The Fury Introduction - Metal Gear Solid Delta Snake Eater - iamhijak (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Fury"
         },
