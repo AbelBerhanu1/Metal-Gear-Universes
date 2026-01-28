@@ -313,3 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
             container.appendChild(entry);
         });
     }
+
+    renderTimeline("games", "gamesContent");
+    renderTimeline("events", "eventsContent");
+    renderTimeline("canon", "canonContent");
