@@ -607,7 +607,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modal.classList.add("show");
             return;
         }
-        
+
         playSound('codecOpenSound', 0.45);
         let modalHTML = `
             <h2>${character.name}</h2>
@@ -619,3 +619,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>${character.bio}</p>
             </div>
         `;
+
+        if (character.quote) {
+            modalHTML += `
+                <div class="quote-section">
+                    <h3>BRIEFING LOG</h3>
+                    <blockquote>"${character.quote}"</blockquote>
+                </div>
+            `;
+        }
