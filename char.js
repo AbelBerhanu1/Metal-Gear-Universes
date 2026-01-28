@@ -264,4 +264,18 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Solid Delta Snake Eater - Full The End Boss Fight (4K) - Sirloin (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_End"
         },
+        {
+            id: 20,
+            name: "Meryl Silverburgh",
+            faction: "us_army",
+            role: "Special Forces Commander",
+            clearance: 8,
+            bio: "Niece of Colonel Campbell. Started as a rookie during the Shadow Moses incident, eventually becoming commander of Rat Patrol Team 01.",
+            quote: "'I fight for what I believe in. Not for a country, not for a flag, but for myself.'",
+            story: "Defied her uncle to join FOXHOUND. Survived the Shadow Moses incident and became a highly respected special forces operative. Known for her purple hair and determination to prove herself.",
+            image: "images/𝐌𝐞𝐫𝐲𝐥 𝐒𝐢𝐥𝐯𝐞𝐫𝐛𝐮𝐫𝐠𝐡 •ᴍɢs4.jpg",
+            video: "video/meryl.mp4",
+            audio: "audio/voices/meryl.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Meryl_Silverburgh"
+        },
         
