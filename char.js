@@ -647,4 +647,12 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
         }
 
+        if (character.audio) {
+            modalHTML += `
+                <div class="modal-media">
+                    <h3>CODEC TRANSMISSION</h3>
+                    <audio src="${character.audio}" controls style="width: 100%"></audio>
+                </div>
+            `;
+        }
         
