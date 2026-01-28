@@ -110,4 +110,17 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "images/Metal Gear Solid V_ The Phantom Pain.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Quiet"
         },
+        {
+            id: 8,
+            name: "Skull Face",
+            faction: "xof",
+            role: "Commander of XOF",
+            clearance: 2,
+            bio: "The mysterious, disfigured leader of the XOF strike force. A survivor of a childhood trauma that robbed him of his language and his face, he seeks to destroy the English language with parasites.",
+            quote: "'Words can kill. I will give the world its freedom... by taking its speech.'",
+            story: "He operated in the shadows of the FOX unit for years. He destroyed Mother Base in 1975 and later attempted to use Sahelanthropus to force the world into a nuclear standoff controlled by his parasites.",
+            image: "images/Skull Face (XOF)  _ Metal Gear Solid V The Phantom….jpg",
+            video: "Video/Skull Face Intro First Scene — Metal Gear Solid 5 - Gamer Guru (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Skull_Face"
+        },
         
