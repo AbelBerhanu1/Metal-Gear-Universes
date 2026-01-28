@@ -86,4 +86,16 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/paramedic.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Para-Medic"
         },
+        {
+            id: 6,
+            name: "Sigint",
+            faction: "foxhound",
+            role: "Technical and Weapons Consultant",
+            clearance: 2,
+            bio: "An expert in high-tech weaponry and equipment. He provided technical support to Naked Snake before eventually becoming the Chief of DARPA.",
+            quote: "'I'm a tech man. If it's got a circuit or a trigger, I can tell you how it works.'",
+            story: "A brilliant engineer who helped develop the gear used by the FOX unit. As Donald Anderson, he later oversaw the development of Metal Gear REX before being killed during the Shadow Moses incident.",
+            image: "images/Sigint.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/Sigint"
+        },
         
