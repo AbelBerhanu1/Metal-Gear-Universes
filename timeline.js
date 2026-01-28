@@ -203,3 +203,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
         ],
+
+        canon: [
+            {
+                year: "1964–1984",
+                title: "Rise of Big Boss",
+                desc: "From hero to symbol. Big Boss becomes an idea rather than a man.",
+                image: "images/Rise of BigBoss.jpg",
+                details: {
+                    context: "Naked Snake's transformation from loyal soldier to revolutionary icon.",
+                    consequences: "Creates the template for the legendary soldier that shapes decades of conflict.",
+                    legacy: "His ideology spawns Outer Heaven, Foxhound, and inspires countless followers."
+                }
+            },
