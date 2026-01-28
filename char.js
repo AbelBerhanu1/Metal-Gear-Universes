@@ -564,3 +564,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 grid.appendChild(card);
             });
     }
+
+    function formatFaction(faction) {
+        const factionNames = {
+            'foxhound': 'FOXHOUND',
+            'cobra_unit': 'COBRA UNIT',
+            'us_army': 'U.S. ARMY',
+            'militaires_sans_frontieres': 'MSF',
+            'philanthropy': 'PHILANTHROPY',
+            'fox_unit': 'FOX UNIT',
+            'diamond_dogs': 'DIAMOND DOGS',
+            'maverick': 'MAVERICK SECURITY',
+            'desperado': 'DESPERADO',
+            'others': 'OTHERS',
+        };
+        const key = faction.toLowerCase().replace(/[\s-]+/g, "_");
+        return factionNames[key] || faction.toUpperCase().replace("_", " ");
+    }
+    
