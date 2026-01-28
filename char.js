@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "A centenarian Navajo biologist who discovered the secrets of the vocal cord parasites. He survives through a symbiotic relationship with 'The One Who Covers' parasites.",
             quote: "'The words we speak are the chains that bind us to our history.'",
             story: "Forced by Skull Face to develop the vocal cord parasites. He eventually joined Diamond Dogs to help Venom Snake develop a cure for the infection that threatened to wipe out their base.",
-            image: "images/Code Talker; a wise man denied his homeland_.jpg",
+            image: "images/Code Talker",
             wiki: "https://metalgear.fandom.com/wiki/Code_Talker"
         },
         {
