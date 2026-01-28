@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Legendary soldier who created modern special forces tactics. Mentor to Big Boss and founder of the Cobra Unit. Considered the greatest soldier who ever lived.",
             quote: "'There's only room for one Boss... and one snake.'",
             story: "Created the basics of CQC (Close Quarters Combat). Sacrificed everything for her country, allowing herself to be branded a traitor to maintain world balance. Her will shaped the entire Metal Gear saga.",
-            image: "images/metal gear solid delta _ • The Boss.jpg",
+            image: "images/The Boss.jpg",
             video: "Video/Metal Gear Solid Delta Snake Eater - The Boss Final Boss Fight (PS5 Pro 4K 60FPS) - Boss Fight Database (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Boss"
         },
