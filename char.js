@@ -149,4 +149,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/The Fury Introduction - Metal Gear Solid Delta Snake Eater - iamhijak (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/The_Fury"
         },
+        {
+            id: 11,
+            name: "The Pain",
+            faction: "cobra_unit",
+            role: "Hornet Controller",
+            clearance: 2,
+            bio: "A soldier who controls swarms of 'bullet bees' housed within his own body. He can use them to create shields, weapons, and even clones of himself.",
+            quote: "'Taste the sting of my hornets!'",
+            story: "A member of the Cobra Unit who fought alongside The Boss in WWII. He can manipulate his bees through pheromones and high-frequency sounds, making him a terrifying forest-dwelling predator.",
+            image: "images/ThePainMGSDelta.jpg",
+            video: "Video/The Pain MGS3 REMAKE Full Scene - thevoicebox (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/The_Pain"
+        },
         
