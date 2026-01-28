@@ -607,3 +607,15 @@ document.addEventListener("DOMContentLoaded", () => {
             modal.classList.add("show");
             return;
         }
+        
+        playSound('codecOpenSound', 0.45);
+        let modalHTML = `
+            <h2>${character.name}</h2>
+            <p class="character-title"><strong>CODENAME:</strong> ${character.name.toUpperCase()}</p>
+            <p><strong>ROLE:</strong> ${character.role}</p>
+            <p><strong>AFFILIATION:</strong> ${formatFaction(character.faction)}</p>
+            <div class="bio-section">
+                <h3>PROFILE</h3>
+                <p>${character.bio}</p>
+            </div>
+        `;
