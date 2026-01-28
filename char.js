@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "A cyborg from Algeria who utilizes a specialized chassis that can attach multiple 'Dwarf Gekko' arms for multi-directional combat.",
             quote: "'I've finally found what I was looking for. A place where I can be free.'",
             story: "A survivor of the Algerian Civil War who found her 'raison d'être' in combat. She joined Desperado to find a master worth following, eventually finding her place among the Winds of Destruction.",
-            image: "images/Mistral_.jpg",
+            image: "images/Mistral.jpg",
             video: "Video/Metal Gear Rising Revengeance - Mistral Boss Fight [4K 60FPS] - Shirrako (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Mistral"
         },
