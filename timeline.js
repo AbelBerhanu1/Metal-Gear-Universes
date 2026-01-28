@@ -120,3 +120,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Exposes how information control shapes society in the digital age."
                 }
             },
+            {
+                year: "2014",
+                title: "Metal Gear Solid 4: Guns of the Patriots",
+                era: "System Collapse",
+                desc: "Solid Snake destroys the Patriots, ending total information control.",
+                image: "images/Metal Gear Solid 4 -.jpg",
+                details: {
+                    context: "Old Snake races against time as the Patriots' system nears total control.",
+                    consequences: "Solid Snake finally ends the Patriots' AI network and Big Boss's legacy.",
+                    legacy: "Frees humanity from AI control but leaves a power vacuum in global affairs."
+                }
+            },
