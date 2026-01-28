@@ -227,4 +227,16 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "Audio/Big_Boss_No_Nation.wav",
             wiki: "https://metalgear.fandom.com/wiki/Big_Boss"
         },
+        {
+            id: 17,
+            name: "EVA",
+            faction: "others",
+            role: "Triple Agent / Spy",
+            clearance: 2,
+            bio: "Chinese spy who infiltrated the Philosophers and later worked with both the CIA and KGB. Real name unknown. One of the most skilled espionage agents in history.",
+            quote: "'The world calls for wetwork, and we answer. No greater good. No just cause.'",
+            story: "Posed as a scientist during the Virtuous Mission, she helped Naked Snake defeat The Boss. Later revealed to be a triple agent working for China. Became the lover of both Big Boss and Ocelot at different points in her life.",
+            image: "images/౨ৎ.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/EVA"
+        },
         
