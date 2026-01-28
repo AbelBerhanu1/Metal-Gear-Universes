@@ -330,4 +330,18 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Solid V The Phantom Pain - Huey Introduction - Generic Gaming (720p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Huey_Emmerich"
         },
+        {
+            id: 25,
+            name: "Revolver Ocelot",
+            faction: "foxhound",
+            role: "Interrogation Specialist",
+            clearance: 2,
+            bio: "Master marksman, strategist, and triple agent. Son of The Boss and a Soviet GRU colonel. The ultimate schemer of the series.",
+            quote: "'I'm a revolver... six bullets... more than enough to kill anything that moves.'",
+            story: "Played every side against the middle for decades. His loyalty was always to himself and his mother's will. The architect behind the Patriots' downfall. Known for his obsession with revolvers and psychological warfare.",
+            image: "images/Revolver Ocelot MGS Delta.jpg",
+            video: "Video/Snake Meets Ocelot For The First Time — MGS3 REMAKE (Full Scene & No Commentary) - PythonSelkan (360p, h264).mp4",
+            audio: "Audio/TTS_Ocelot_We_Need_Tension.mp3.wav",
+            wiki: "https://metalgear.fandom.com/wiki/Revolver_Ocelot"
+        },
         
