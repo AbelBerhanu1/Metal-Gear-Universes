@@ -352,3 +352,10 @@ body {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
 }
+
+.modal-media {
+    margin: 1.5rem 0;
+    border: 1px solid var(--terminal-border);
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.3);
+}
