@@ -278,4 +278,16 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/meryl.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Meryl_Silverburgh"
         },
+        {
+            id: 21,
+            name: "Colonel Roy Campbell",
+            faction: "us_army",
+            role: "Commanding Officer",
+            clearance: 2,
+            bio: "Veteran commander with decades of experience. Uncle to Meryl Silverburgh. Served in Vietnam and numerous special operations.",
+            quote: "'This is no time for hesitation. Make a decision, and live with the consequences.'",
+            story: "Commanded FOXHOUND during the Shadow Moses incident. Former lover of The Boss. Despite his tough exterior, cares deeply for his subordinates. One of the few commanders who truly understands the cost of war.",
+            image: "images/Colonel Roy Campbell.jpg",
+            wiki: "https://metalgear.fandom.com/wiki/Roy_Campbell"
+        },
         
