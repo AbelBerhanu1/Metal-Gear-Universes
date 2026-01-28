@@ -16,3 +16,6 @@ function playSound(id, volume = 0.3) {
     sound.volume = volume;
     sound.play().catch(() => {});
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const characters = [
