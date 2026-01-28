@@ -158,3 +158,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Eventually splintered into the Patriots and influenced all major Metal Gear events."
                 }
             },
+            {
+                year: "1975",
+                title: "Mother Base Incident",
+                desc: "Cipher destroys MSF, forcing Big Boss into hiding.",
+                image: "images/Mother Base Incident.jpg",
+                details: {
+                    context: "Zero's faction attacks MSF to eliminate Big Boss's growing influence.",
+                    consequences: "Destroys the first private military force and nearly kills Big Boss.",
+                    legacy: "Directly leads to the creation of Diamond Dogs and the phantom legend."
+                }
+            },
