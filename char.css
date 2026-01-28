@@ -316,3 +316,12 @@ body {
     border: 1px solid var(--terminal-border);
     margin: 1.5rem 0;
 }
+
+.access-denied-container {
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid #8b2a2a; 
+    background: rgba(40, 0, 0, 0.9);
+    color: #ff4d4d;
+    font-family: var(--font-mono);
+}
