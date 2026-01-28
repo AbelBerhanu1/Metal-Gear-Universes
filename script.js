@@ -83,7 +83,7 @@ function initializeSystem() {
     if (savedSound !== null) {
         SYSTEM_CONFIG.soundEnabled = savedSound === 'true';
         if (elements.toggleSound) {
-            elements.toggleSound.textContent = SYSTEM_CONFIG.soundEnabled ? 'SND: ON' : 'SND: OFF';
+            elements.toggleSound.textContent = SYSTEM_CONFIG.soundEnabled ? 'SOUND: ON' : 'SOUND: OFF';
         }
         if (elements.bgVideo) {
             elements.bgVideo.muted = !SYSTEM_CONFIG.soundEnabled;
