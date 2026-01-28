@@ -637,4 +637,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
+
+        if (character.video) {
+            modalHTML += `
+                <div class="modal-media">
+                    <h3>VIDEO DOSSIER</h3>
+                    <video src="${character.video}" controls width="100%"></video>
+                </div>
+            `;
+        }
+
         
