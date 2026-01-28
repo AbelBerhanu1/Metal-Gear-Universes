@@ -244,3 +244,22 @@ body {
         transform: translateY(0);
     }
 }
+
+.localstorage-demo {
+    border-top: 1px solid var(--border-main);
+    padding-top: 2rem;
+}
+
+.localstorage-demo h2 {
+    font-size: 1.1rem;
+    color: var(--accent-green);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.localstorage-demo p {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+}
