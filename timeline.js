@@ -36,3 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "This mission created Big Boss and indirectly led to the Patriots."
                 }
             },
+            {
+                year: "1970",
+                title: "Metal Gear Solid: Peace Walker",
+                era: "Age of Deterrence",
+                desc: "Big Boss forms MSF and rejects Zero's vision, accelerating the arms race and the creation of proxy warfare.",
+                image: "images/Metal Gear Solid_ Peace Walker.jpg",
+                details: {
+                    context: "Post-Snake Eater, Big Boss establishes Militaires Sans Frontières as a private military force.",
+                    consequences: "The rejection of Zero's Patriots leads to ideological schism and escalating conflicts.",
+                    legacy: "MSF becomes the prototype for Outer Heaven and future private military companies."
+                }
+            },
