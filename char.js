@@ -514,4 +514,19 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Rising Revengeance - Mistral Boss Fight [4K 60FPS] - Shirrako (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Mistral"
         },
-        
+        {
+            id: 39,
+            name: "Monsoon",
+            faction: "desperado",
+            role: "Winds of Destruction / Sower of Nihilism",
+            clearance: 7,
+            bio: "A nihilistic cyborg with a magnetic body that can break apart and reform at will. He uses smoke and high-frequency 'Dystopia' sai.",
+            quote: "'Memes, the DNA of the soul.'",
+            story: "Having survived the Khmer Rouge in Cambodia, Monsoon believes the world is ruled by memes and chance. He attempts to break Raiden's mind by exposing the 'Jack the Ripper' side of his personality.",
+            image: "images/Monsoon - Metal Gear Rising.jpg",
+            video: "Video/Metal Gear Rising Revengeance - Monsoon Boss Fight [4K 60FPS] - Shirrako (360p, h264).mp4",
+            audio: "audio/voices/monsoon.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Monsoon"
+        }
+    ];
+    
