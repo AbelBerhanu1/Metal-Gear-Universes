@@ -681,4 +681,12 @@ document.addEventListener("DOMContentLoaded", () => {
         modalMedia.forEach(m => m.pause());
     });
 
+    modal.addEventListener("click", e => {
+        if (e.target === modal) {
+            playSound('codecCloseSound', 0.35);
+            modal.classList.remove("show");
+            const modalMedia = modalContent.querySelectorAll('video, audio');
+            modalMedia.forEach(m => m.pause());
+        }
+    });
     
