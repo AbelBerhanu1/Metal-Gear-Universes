@@ -20,3 +20,6 @@ function playSound(id, volume = 0.3) {
 window.playClickSound = () => playSound('uiClickSound', 0.3);
 window.playNavSound = () => playSound('navSound', 0.4);
 window.playPanelSound = () => playSound('panelSound', 0.4);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const timelineData = {
