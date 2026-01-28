@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", () => {
             bio: "Kurdish sniper saved by Big Boss. Considered the best sniper in FOXHOUND after The End.",
             quote: "'I live for the hunt. The moment when the crosshairs align... and time stops.'",
             story: "Orphaned during the Gulf War and rescued by Big Boss. Devoted to him completely. Her tragic love story with Otacon highlights the human cost of war.",
-            image: "images/Sniper Wolf  Metal Gear Solid 1.jpg",
+            image: "images/Sniper Wolf.jpg",
             wiki: "https://metalgear.fandom.com/wiki/Sniper_Wolf"
         },
         {
