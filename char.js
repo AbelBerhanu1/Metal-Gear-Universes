@@ -628,3 +628,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
+
+        if (character.story) {
+            modalHTML += `
+                <div class="story-section">
+                    <h3>OPERATIONAL HISTORY</h3>
+                    <p>${character.story}</p>
+                </div>
+            `;
+        }
+        
