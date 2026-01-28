@@ -349,6 +349,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    
     loadSaved();
 });
