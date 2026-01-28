@@ -529,4 +529,10 @@ document.addEventListener("DOMContentLoaded", () => {
             wiki: "https://metalgear.fandom.com/wiki/Monsoon"
         }
     ];
+
+    const grid = document.getElementById("charactersGrid");
+    const modal = document.getElementById("characterModal");
+    const modalContent = document.getElementById("modalContent");
+    const closeModal = document.querySelector(".close-modal");
+    const filterButtons = document.querySelectorAll(".filter-btn");
     
