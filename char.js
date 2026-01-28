@@ -344,4 +344,18 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "Audio/TTS_Ocelot_We_Need_Tension.mp3.wav",
             wiki: "https://metalgear.fandom.com/wiki/Revolver_Ocelot"
         },
+        {
+            id: 26,
+            name: "Kazuhira Miller",
+            faction: "philanthropy",
+            role: "Strategic Advisor / Logistician",
+            clearance: 9,
+            bio: "Master of logistics, training, and battlefield economics. The man who keeps armies running.",
+            quote: "'We're not tools of the government, or anyone else. Fighting was the only thing... the only thing I was good at.'",
+            story: "Half-Japanese, half-American soldier who lost everything in the Cold War. Co-founded Militaires Sans Frontières with Big Boss. After losing Mother Base, he dedicated his life to revenge and rebuilding.",
+            image: "images/Kaz.jpg",
+            video: "video/miller.mp4",
+            audio: "audio/voices/miller.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Kazuhira_Miller"
+        },
         
