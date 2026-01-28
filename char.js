@@ -123,4 +123,17 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Skull Face Intro First Scene — Metal Gear Solid 5 - Gamer Guru (360p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Skull_Face"
         },
+        {
+            id: 9,
+            name: "The Sorrow",
+            faction: "cobra_unit",
+            role: "Spirit Medium / Cobra Unit Member",
+            clearance: 2,
+            bio: "A powerful medium who could summon the dead to aid him in battle. Even in death, his spirit continued to guide and haunt Naked Snake.",
+            quote: "'The spirits of those you have killed will follow you forever.'",
+            story: "The lover of The Boss and father of Revolver Ocelot. He was killed by The Boss during a mission in 1962, but returned as a ghost to test Snake's resolve during the mission to destroy Groznyj Grad.",
+            image: "images/The Sorrow _ Metal Gear Solid ∆_ snake eater.jpg",
+            video: "Video/Metal Gear Solid Delta Snake Eater - Full The Sorrow Boss Fight (4K) - Sirloin (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/The_Sorrow"
+        },
         
