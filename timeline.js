@@ -16,3 +16,7 @@ function playSound(id, volume = 0.3) {
     sound.volume = volume;
     sound.play().catch(() => {});
 }
+
+window.playClickSound = () => playSound('uiClickSound', 0.3);
+window.playNavSound = () => playSound('navSound', 0.4);
+window.playPanelSound = () => playSound('panelSound', 0.4);
