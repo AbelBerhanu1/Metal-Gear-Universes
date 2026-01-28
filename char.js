@@ -449,4 +449,17 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/doktor.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Doktor"
         },
+        {
+            id: 34,
+            name: "Senator Armstrong",
+            faction: "others",
+            role: "U.S. Senator / World Marshall Shadow Leader",
+            clearance: 2,
+            bio: "A presidential candidate with extreme Social Darwinist views. He is powered by 'Nanomachines' that harden his skin in response to physical trauma.",
+            quote: "'Nanomachines, son! They harden in response to physical trauma.'",
+            story: "Armstrong sought to restart the American war economy to create a world where individuals fight for what they believe in, rather than for money or government orders. He is the ultimate ideological foil to Raiden.",
+            image: "images/Metal Gear Rising.jpg",
+            video: "Video/Metal Gear Rising Revengeance - R-07 Assassination Attempt Senator Armstrong & Excelsus Intro PS3 - Jason's Video Games Source (360p, h264).mp4",
+            wiki: "https://metalgear.fandom.com/wiki/Steven_Armstrong"
+        },
         
