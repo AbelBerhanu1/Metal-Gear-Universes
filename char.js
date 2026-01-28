@@ -214,4 +214,17 @@ document.addEventListener("DOMContentLoaded", () => {
             audio: "audio/voices/snake.ogg",
             wiki: "https://metalgear.fandom.com/wiki/Solid_Snake"
         },
+        {
+            id: 16,
+            name: "Big Boss",
+            faction: "others",
+            role: "Legendary Soldier / Mercenary Leader",
+            clearance: 2,
+            bio: "The greatest soldier of the 20th century. Real name John. Veteran of WWII, Vietnam, and numerous Cold War conflicts. Founded both FOXHOUND and Outer Heaven.",
+            quote: "'We have no nation, no philosophy, no ideology. We go where we're needed, fighting not for country, not for government, but for ourselves. We need no reason to fight.'",
+            story: "Originally known as Naked Snake, he became Big Boss after defeating his mentor, The Boss. Created the concept of the nation-less army and inspired generations of soldiers. His DNA was used to create the Les Enfants Terribles project.",
+            image: "images/Old Big Boss at the end of the series.jpg",
+            audio: "Audio/Big_Boss_No_Nation.wav",
+            wiki: "https://metalgear.fandom.com/wiki/Big_Boss"
+        },
         
