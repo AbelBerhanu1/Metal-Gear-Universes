@@ -698,4 +698,6 @@ document.addEventListener("DOMContentLoaded", () => {
             renderCharacters(btn.dataset.filter);
         });
     });
-    
+
+    renderCharacters();
+});
