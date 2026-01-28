@@ -180,3 +180,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     legacy: "Establishes the theme of identity and legend over individual in the series."
                 }
             },
+            {
+                year: "2009",
+                title: "Patriots Exposed",
+                desc: "The Patriots are revealed to be AI constructs.",
+                image: "images/The Patriots Exposed.jpg",
+                details: {
+                    context: "Raiden discovers the truth during the Big Shell incident.",
+                    consequences: "Reveals that human Patriots have been dead for years, replaced by AI.",
+                    legacy: "Forces humanity to confront its reliance on automated control systems."
+                }
+            },
