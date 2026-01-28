@@ -303,4 +303,18 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "Video/Metal Gear Solid 5 Phantom Pain - Psycho Mantis (MGS5) - DarkSagor (720p, h264).mp4",
             wiki: "https://metalgear.fandom.com/wiki/Psycho_Mantis"
         },
+        {
+            id: 23,
+            name: "Chico Valenciano Libre",
+            faction: "MSF",
+            role: "Child Soldier / Radio Operator",
+            clearance: 9,
+            bio: "Young Costa Rican boy rescued by Big Boss. Became a radio operator for the Militaires Sans Frontières.",
+            quote: "'I want to be strong, like you. I want to fight.'",
+            story: "Survived the Sandinista conflict in Costa Rica. Saved by Big Boss and became his protege. His fate remains one of the series' most tragic stories, showing the cost of war on children.",
+            image: "images/┊ ִֶָ𓂃 ࣪˖ ִֶָ ᑕᕼIᑕO ་༘࿐.jpg",
+            video: "video/chico.mp4",
+            audio: "audio/voices/chico.ogg",
+            wiki: "https://metalgear.fandom.com/wiki/Chico"
+        },
         
