@@ -20,14 +20,14 @@
                 <div class="terminal-header">
                     <span class="blink">▶</span> SYSTEM BOOT
                 </div>
-
+                
                 <div class="boot-messages">
                     <div class="boot-line">INITIALIZING FOXHOUND DATABASE...</div>
                     <div class="boot-line">LOADING SECURITY PROTOCOLS...</div>
                     <div class="boot-line">ESTABLISHING ENCRYPTION...</div>
                     <div class="boot-line">SYSTEM TIME: <span id="bootTime"></span></div>
                 </div>
-
+                
                 <div class="access-panel hidden">
                     <div class="access-title">SECURITY CLEARANCE REQUIRED</div>
                     <div class="access-subtitle">ENTER 8-DIGIT DATE OF BIRTH (DDMMYY)</div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="hint">Enter DDMMYY format (e.g., 01011997 for Jan 1, 1997)</div>
                 </div>
-
+                
                 <div class="boot-complete hidden">
                     <img src="images\MGS-logo.jpg" class="boot-logo" alt="Metal Gear Solid Logo">
                     <div class="welcome-text">WELCOME BACK, FOXHOUND</div>
@@ -66,13 +66,12 @@
                     <span class="sys-time" id="liveTime">--:--:--</span>
                     <span class="sys-status">STATUS: <span class="status-active">ACTIVE</span></span>
                 </div>
-
                 <div class="terminal-controls">
                     <button class="sys-btn" id="toggleConsole">CONSOLE</button>
                     <button class="sys-btn" id="toggleSound">SND: ON</button>
                 </div>
             </div>
-
+            
             <nav class="system-nav">
                 <div class="nav-container">
                     <div class="nav-brand">
@@ -145,7 +144,6 @@
                                 <span class="stat">PERIOD: 1964-PRESENT</span>
                             </div>
                         </div>
-
                         <div class="panel-footer">
                             <a href="timeline.html" class="panel-btn">REVIEW →</a>
                         </div>
@@ -175,7 +173,7 @@
                         <h3 class="section-title">SECURE TRANSMISSION</h3>
                         <span class="section-tag">ENCRYPTED CHANNEL</span>
                     </div>
-
+                    
                     <form id="commsForm" class="comms-form">
                         <div class="form-grid">
                             <div class="form-group">
@@ -185,15 +183,15 @@
                                 <div class="form-hint">3-8 characters, alphanumeric</div>
                                 <div class="error-msg" id="agentIdError"></div>
                             </div>
-
-                             <div class="form-group">
+                            
+                            <div class="form-group">
                                 <label for="frequency">FREQUENCY:</label>
                                 <input type="email" id="frequency" name="frequency" required 
                                        placeholder="agent@foxhound.mil">
                                 <div class="form-hint">Secure military domain</div>
                                 <div class="error-msg" id="frequencyError"></div>
                             </div>
-
+                            
                             <div class="form-group full-width">
                                 <label for="priority">PRIORITY LEVEL:</label>
                                 <select id="priority" name="priority">
@@ -204,7 +202,7 @@
                                     <option value="flash">FLASH TRAFFIC</option>
                                 </select>
                             </div>
-
+                            
                             <div class="form-group full-width">
                                 <label for="message">MESSAGE:</label>
                                 <textarea id="message" name="message" rows="4" 
@@ -212,14 +210,14 @@
                                 <div class="form-hint">Minimum 20 characters</div>
                                 <div class="error-msg" id="messageError"></div>
                             </div>
-
+                            
                             <div class="form-group">
                                 <label class="checkbox">
                                     <input type="checkbox" id="encrypt" name="encrypt" required>
                                     <span>ENABLE ENCRYPTION</span>
                                 </label>
                             </div>
-
+                            
                             <div class="form-group">
                                 <button type="submit" class="transmit-btn">
                                     <span class="btn-text">TRANSMIT</span>
@@ -227,7 +225,7 @@
                                 </button>
                             </div>
                         </div>
-
+                        
                         <div id="transmissionStatus" class="transmission-status hidden">
                             <div class="status-content">
                                 <div class="status-icon">✓</div>
@@ -263,8 +261,8 @@
                             <span class="status-value" id="storageStatus">LOADING...</span>
                         </div>
                     </div>
-
-                    div class="storage-display">
+                    
+                    <div class="storage-display">
                         <h4>LOCAL CACHE</h4>
                         <div class="storage-controls">
                             <input type="text" id="cacheNote" placeholder="ENTER NOTE">

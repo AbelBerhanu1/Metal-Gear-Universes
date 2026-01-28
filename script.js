@@ -117,6 +117,7 @@ function updateBackgroundVideo() {
     }
 }
 
+
 function playClickSound() {
     if (!SYSTEM_CONFIG.soundEnabled) return;
     const sound = document.getElementById('uiClickSound');
@@ -183,15 +184,18 @@ document.addEventListener('click', function(e) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const textInputs = document.querySelectorAll('input[type="text"], input[type="email"], textarea');
-    extInputs.forEach(input => {
+    
+    textInputs.forEach(input => {
         input.addEventListener('keydown', function(e) {
             if (e.key.length === 1 || e.key === 'Backspace' || e.key === 'Delete') {
                 playTypingSound();
             }
         });
+        
         input.addEventListener('paste', playTypingSound);
         input.addEventListener('cut', playTypingSound);
     });
+    
     if (elements.accessCodeInput) {
         elements.accessCodeInput.addEventListener('keydown', function(e) {
             if (e.key.length === 1 || e.key === 'Backspace' || e.key === 'Delete') {
@@ -209,12 +213,12 @@ function startBootSequence() {
         minute: '2-digit',
         second: '2-digit'
     });
-
+    
     setTimeout(() => {
         elements.accessPanel.classList.remove('hidden');
         elements.accessCodeInput.focus();
     }, 3000);
-
+    
     elements.verifyAccessBtn.addEventListener('click', verifyAccess);
     elements.accessCodeInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') verifyAccess();
@@ -230,11 +234,11 @@ function verifyAccess() {
         denyAccess();
         return;
     }
-
+    
     const day = parseInt(code.slice(0, 2), 10);
     const month = parseInt(code.slice(2, 4), 10) - 1;
     const year = parseInt(code.slice(4, 8), 10);
-
+    
     if (day < 1 || day > 31 || month < 0 || month > 11 || year < 1900 || year > new Date().getFullYear()) {
         denyAccess();
         return;
@@ -242,7 +246,7 @@ function verifyAccess() {
     
     const dob = new Date(year, month, day);
     const today = new Date();
-
+    
     if (isNaN(dob.getTime()) || 
         dob.getDate() !== day || 
         dob.getMonth() !== month || 
@@ -251,10 +255,10 @@ function verifyAccess() {
         denyAccess();
         return;
     }
-
+    
     let age = today.getFullYear() - dob.getFullYear();
     const monthDiff = today.getMonth() - dob.getMonth();
-
+    
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) {
         age--;
     }
@@ -270,7 +274,7 @@ function grantAccess() {
     elements.accessError.classList.add('hidden');
     elements.accessPanel.classList.add('hidden');
     elements.bootComplete.classList.remove('hidden');
-
+    
     localStorage.setItem('foxhound_age_verified', 'true');
     localStorage.setItem('foxhound_last_access', new Date().toISOString());
 
@@ -296,13 +300,13 @@ function enterSystem() {
             enterSound.play().catch(e => console.log('Enter sound failed:', e));
         }
     }
-
+    
     sessionStorage.setItem('foxhoundBooted', 'true');
 
     elements.bootSequence.style.opacity = '0';
     elements.bootSequence.style.transition = 'opacity 0.8s ease';
-
-    etTimeout(() => {
+    
+    setTimeout(() => {
         elements.bootSequence.classList.add('hidden');
         elements.mainSystem.classList.remove('hidden');
         const bgVideo = elements.bgVideo;
@@ -318,6 +322,7 @@ function enterSystem() {
                 console.warn(err);
             });
         }
+
         initializeMainSystem();
         consoleLog('System interface activated');
         updateStorageStatus();
@@ -341,7 +346,7 @@ function updateSystemTime() {
         minute: '2-digit',
         second: '2-digit'
     });
-
+    
     if (elements.liveTime) {
         elements.liveTime.textContent = timeString;
     }
@@ -353,6 +358,7 @@ function updateSystemTime() {
 
 function initNavigation() {
     if (!elements.navToggle || !elements.navMenu) return;
+    
     elements.navToggle.addEventListener('click', function() {
         playNavSound();
         elements.navMenu.classList.toggle('active');
